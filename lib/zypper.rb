@@ -3,6 +3,7 @@ class Zypper
   require 'fileutils'
   require 'shellwords'
   require 'popen4'
+  require 'xmlsimple'
 
   DEFAULT_ROOT = '/'
   DEFAULT_IMPORT_GPG = true
@@ -13,7 +14,7 @@ class Zypper
   CHROOT_METHOD_CHROOT = 'chroot'
   KNOWN_CHROOT_METHODS = [CHROOT_METHOD_LOCAL, CHROOT_METHOD_CHROOT]
 
-  NORET_COMMANDS_GET = 'boolean'
+  XML_COMMANDS_GET = 'xml'
 
   # Only getters are public
   attr_reader :last_message, :last_error_message, :last_exit_status
@@ -58,12 +59,17 @@ class Zypper
   #     :force - to force the refresh
   #     :force_rebuild - forces rebuilding the libzypp database
   def refresh_repositories(options = {})
-    run build_command('refresh', options), :get => NORET_COMMANDS_GET
+    run build_command('refresh', options)
   end
 
   # Refreshes services
   def refresh_services(options = {})
-    run build_command('refresh-services', options), :get => NORET_COMMANDS_GET
+    run build_command('refresh-services', options)
+  end
+
+  def repositories(options = {})
+    out = xml_run build_command('repos', options.merge(:get => XML_COMMANDS_GET))
+    out['repo-list'] || []
   end
 
   private
@@ -73,7 +79,7 @@ class Zypper
 
   # Returns the full zypper command including chroot, zypper command, options, etc.
   def build_command(zypper_command, options = {})
-    chrooted + ' zypper ' + global_options + ' ' + zypper_command + ' ' + zypper_command_options(zypper_command, options)
+    chrooted + ' zypper ' + global_options(options) + ' ' + zypper_command + ' ' + zypper_command_options(zypper_command, options)
   end
 
   # Returns string of command options depending on a given zypper command
@@ -93,10 +99,11 @@ class Zypper
   end
 
   # Returns string with global zypper options
-  def global_options
+  def global_options(options = {})
     [
+      (options[:get] == XML_COMMANDS_GET ? '--xmlout' : ''),
       '--non-interactive',
-      (auto_import_gpg? ? '--gpg-auto-import-keys' : '')
+      (auto_import_gpg? ? '--gpg-auto-import-keys' : ''),
     ].join(' ')
   end
 
@@ -120,9 +127,21 @@ class Zypper
     @auto_import_gpg
   end
 
+  def xml_run(command)
+    xml = run(command, {:get => XML_COMMANDS_GET})
+    out = XmlSimple.xml_in(xml)
+
+    if !out["message"].nil?
+      errors = out["message"].select{|hash| hash["type"] == "error"}
+      self.last_error = errors.collect{|hash| hash["content"]}.join("\n")
+    end
+
+    out
+  end
+
   # Runs a command given as argument and returns the full output
   # Exit status can be acquired using last_exit_status call
-  def run command, params = {}
+  def run(command, params = {})
     # FIXME: it's here just for debugging
     puts "DEBUG: " + command
 
@@ -130,12 +149,13 @@ class Zypper
       self.last_message       = stdout.read.strip
       self.last_error_message = stderr.read.strip
     end
+
     last_exit_status = cmd_ret.exitstatus
 
-    if params[:get] == 'boolean'
-      last_exit_status == 0
-    else
+    if params[:get] == XML_COMMANDS_GET
       last_message
+    else
+      last_exit_status == 0
     end
   end
 end

@@ -6,10 +6,8 @@ require 'zypper'
 
 zypper = Zypper.new(:root => '/chroot-SLES11-SP1', :chroot_method => 'chroot')
 
-puts "Command returned: " + zypper.refresh_repositories.inspect
-puts "Last message: #{zypper.last_message}"
-puts "Last error message: #{zypper.last_error_message}"
+puts "Refreshing repositories: " + zypper.refresh_repositories.inspect
 
-puts "Command returned: " + zypper.refresh_services.inspect
-puts "Last message: #{zypper.last_message}"
-puts "Last error message: #{zypper.last_error_message}"
+puts "Refreshing services: " + zypper.refresh_services.inspect
+
+puts "Listing repositories: " + zypper.repositories.inspect
