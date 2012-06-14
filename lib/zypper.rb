@@ -67,9 +67,23 @@ class Zypper
     run build_command('refresh-services', options)
   end
 
+  # Lists all known repositories
   def repositories(options = {})
     out = xml_run build_command('repos', options.merge(:get => XML_COMMANDS_GET))
-    out['repo-list'] || []
+    # FIXME: try
+    out['repo-list'][0]['repo'] || []
+  end
+
+  def clean_caches(options = {})
+    run build_command('clean', options)
+  end
+
+  def add_repository(options = {})
+    run build_command('addrepo', options)
+  end
+
+  def remove_repository(options = {})
+    run build_command('removerepo', options)
   end
 
   private
@@ -77,8 +91,26 @@ class Zypper
   # Setters are private
   attr_writer :last_message, :last_error_message, :last_exit_status
 
+  def check_mandatory_options_set(zypper_command, options, mandatory)
+    mandatory.each {|option|
+      raise "Missing #{option} parameter in #{zypper_command} command" if options[option].nil?
+    }
+  end
+
+  def check_mandatory_options(zypper_command, options)
+    case zypper_command
+      when 'addrepo'
+        check_mandatory_options_set(zypper_command, options, [:url, :alias])
+        # FIXME: check that :url or :alias do not contain any space (or special character)
+      when 'removerepo'
+        check_mandatory_options_set(zypper_command, options, [:alias])
+        # FIXME: check that :url or :alias do not contain any space (or special character)
+    end
+  end
+
   # Returns the full zypper command including chroot, zypper command, options, etc.
   def build_command(zypper_command, options = {})
+    check_mandatory_options(zypper_command, options)
     chrooted + ' zypper ' + global_options(options) + ' ' + zypper_command + ' ' + zypper_command_options(zypper_command, options)
   end
 
@@ -92,6 +124,16 @@ class Zypper
         ret_options = [
           options[:force] ? '--force' : '',
           options[:force_build] ? '--force-build' : '',
+        ]
+      when 'addrepo'
+        ret_options = [
+          refresh_repo? ? '--refresh':'',
+          options[:url],
+          options[:alias],
+        ]
+      when 'removerepo'
+        ret_options = [
+          options[:alias],
         ]
     end
 
@@ -125,6 +167,10 @@ class Zypper
 
   def auto_import_gpg?
     @auto_import_gpg
+  end
+
+  def refresh_repo?
+    @refresh_repo
   end
 
   def xml_run(command)

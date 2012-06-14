@@ -11,3 +11,11 @@ puts "Refreshing repositories: " + zypper.refresh_repositories.inspect
 puts "Refreshing services: " + zypper.refresh_services.inspect
 
 puts "Listing repositories: " + zypper.repositories.inspect
+
+puts "Adding repository: " + zypper.add_repository(:url => 'http://incorrect', :alias => 'some_alias').inspect
+
+puts "Listing repositories: " + zypper.repositories.inspect
+
+puts "Removing repositories: " + zypper.remove_repository(:alias => 'some_alias').inspect
+
+puts "Listing repositories: " + zypper.repositories.inspect
