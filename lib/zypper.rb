@@ -54,9 +54,16 @@ class Zypper
   end
 
   # Refreshes repositories
+  #   @param (optional) options
+  #     :force - to force the refresh
+  #     :force_rebuild - forces rebuilding the libzypp database
   def refresh_repositories(options = {})
-    puts build_command('refresh', options)
     run build_command('refresh', options), :get => NORET_COMMANDS_GET
+  end
+
+  # Refreshes services
+  def refresh_services(options = {})
+    run build_command('refresh-services', options), :get => NORET_COMMANDS_GET
   end
 
   private
@@ -77,7 +84,8 @@ class Zypper
     case zypper_command
       when 'refresh'
         ret_options = [
-          options[:force] ? '--force' : ''
+          options[:force] ? '--force' : '',
+          options[:force_build] ? '--force-build' : '',
         ]
     end
 
@@ -115,6 +123,9 @@ class Zypper
   # Runs a command given as argument and returns the full output
   # Exit status can be acquired using last_exit_status call
   def run command, params = {}
+    # FIXME: it's here just for debugging
+    puts "DEBUG: " + command
+
     cmd_ret = POpen4::popen4(command) do |stdout, stderr, stdin, pid|
       self.last_message       = stdout.read.strip
       self.last_error_message = stderr.read.strip
