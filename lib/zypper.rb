@@ -113,6 +113,12 @@ class Zypper
     run build_command('install', options)
   end
 
+  # Removes packages given as parmeter
+  #   (array) :packages
+  def remove(options = {})
+    run build_command('remove', options)
+  end
+
   private
 
   # Setters are private
@@ -133,6 +139,9 @@ class Zypper
         check_mandatory_options_set(zypper_command, options, [:alias])
         # FIXME: check that :url or :alias do not contain any spaces (or special characters)
       when 'install'
+        # FIXME: check that :packages do not contain any spaces (or special characters)
+        check_mandatory_options_set(zypper_command, options, [:packages])
+      when 'remove'
         # FIXME: check that :packages do not contain any spaces (or special characters)
         check_mandatory_options_set(zypper_command, options, [:packages])
     end
@@ -170,6 +179,10 @@ class Zypper
       when 'install'
         ret_options = [
           auto_agree_with_licenses? ? '--auto-agree-with-licenses' : '',
+          options[:packages].collect{|package| Shellwords::escape(package)}.join(' '),
+        ]
+      when 'remove'
+        ret_options = [
           options[:packages].collect{|package| Shellwords::escape(package)}.join(' '),
         ]
     end
