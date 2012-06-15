@@ -164,6 +164,10 @@ class Zypper
       zypper_command + ' ' + zypper_command_options(zypper_command, options)
   end
 
+  def escape_items(items = [])
+    items.collect{|package| Shellwords::escape(package)}.join(' ')
+  end
+
   # Returns string of command options depending on a given zypper command
   # combined with provided options
   def zypper_command_options(zypper_command, options = {})
@@ -188,11 +192,11 @@ class Zypper
       when 'install'
         ret_options = [
           auto_agree_with_licenses? ? '--auto-agree-with-licenses' : '',
-          options[:packages].collect{|package| Shellwords::escape(package)}.join(' '),
+          escape_items(options[:packages]),
         ]
       when 'remove'
         ret_options = [
-          options[:packages].collect{|package| Shellwords::escape(package)}.join(' '),
+          escape_items(options[:packages]),
         ]
     end
 
