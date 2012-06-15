@@ -8,6 +8,7 @@ class Zypper
   DEFAULT_ROOT = '/'
   DEFAULT_IMPORT_GPG = true
   DEFAULT_REFRESH_REPO = true
+  DEFAULT_AUTO_AGREE_WITH_LICENSES = true
   DEFAULT_CHROOT_METHOD = 'local'
 
   CHROOT_METHOD_LOCAL  = 'local'
@@ -46,6 +47,9 @@ class Zypper
     @refresh_repo = params[:refresh_repo].nil? ?
       DEFAULT_REFRESH_REPO : params[:refresh_repo]
 
+    @auto_agree_with_licenses = params[:auto_agree_with_licenses].nil? ?
+      DEFAULT_AUTO_AGREE_WITH_LICENSES : params[:auto_agree_with_licenses]
+
     @chroot_method = params[:chroot_method].nil? ?
       DEFAULT_CHROOT_METHOD : params[:chroot_method]
 
@@ -73,10 +77,14 @@ class Zypper
     out.fetch('repo-list', []).fetch(0, {}).fetch('repo', [])
   end
 
+  # Cleans the libzypp cache
   def clean_caches(options = {})
     run build_command('clean', options)
   end
 
+  # Adds a new repository defined by options
+  #   (string) :url URL/URL
+  #   (string) :alias
   def add_repository(options = {})
     run build_command('addrepo', options)
   end
@@ -89,6 +97,20 @@ class Zypper
   def services(options = {})
     out = xml_run build_command('services', options.merge(:get => XML_COMMANDS_GET))
     out.fetch('service-list', []).fetch(0, {}).fetch('service', [])
+  end
+
+  # Auto-imports all GPG keys from repositories
+  def auto_import_keys
+    previous_auto_import_gpg = auto_import_gpg
+    ret = refresh_repositories
+    self.auto_import_gpg = previous_auto_import_gpg
+    ret
+  end
+
+  # Installs packages given as parmeter
+  #   (array) :packages
+  def install(options = {})
+    run build_command('install', options)
   end
 
   private
@@ -106,17 +128,22 @@ class Zypper
     case zypper_command
       when 'addrepo'
         check_mandatory_options_set(zypper_command, options, [:url, :alias])
-        # FIXME: check that :url or :alias do not contain any space (or special character)
+        # FIXME: check that :url or :alias do not contain any spaces (or special characters)
       when 'removerepo'
         check_mandatory_options_set(zypper_command, options, [:alias])
-        # FIXME: check that :url or :alias do not contain any space (or special character)
+        # FIXME: check that :url or :alias do not contain any spaces (or special characters)
+      when 'install'
+        # FIXME: check that :packages do not contain any spaces (or special characters)
+        check_mandatory_options_set(zypper_command, options, [:packages])
     end
   end
 
   # Returns the full zypper command including chroot, zypper command, options, etc.
   def build_command(zypper_command, options = {})
     check_mandatory_options(zypper_command, options)
-    chrooted + ' zypper ' + global_options(options) + ' ' + zypper_command + ' ' + zypper_command_options(zypper_command, options)
+
+    chrooted + ' zypper ' + global_options(options) + ' ' +
+      zypper_command + ' ' + zypper_command_options(zypper_command, options)
   end
 
   # Returns string of command options depending on a given zypper command
@@ -139,6 +166,11 @@ class Zypper
       when 'removerepo'
         ret_options = [
           options[:alias],
+        ]
+      when 'install'
+        ret_options = [
+          auto_agree_with_licenses? ? '--auto-agree-with-licenses' : '',
+          options[:packages].collect{|package| Shellwords::escape(package)}.join(' '),
         ]
     end
 
@@ -172,6 +204,10 @@ class Zypper
 
   def auto_import_gpg?
     @auto_import_gpg
+  end
+
+  def auto_agree_with_licenses?
+    @auto_agree_with_licenses
   end
 
   def refresh_repo?

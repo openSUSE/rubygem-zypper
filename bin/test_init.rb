@@ -21,3 +21,5 @@ puts "Removing repositories: " + zypper.remove_repository(:alias => 'some_alias'
 puts "Listing repositories: " + zypper.repositories.inspect
 
 puts "Listing services: " + zypper.services.inspect
+
+puts "Installing packages: " + zypper.install(:packages => ['less']).inspect
