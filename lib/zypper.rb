@@ -136,6 +136,18 @@ class Zypper
     run build_command('remove', options)
   end
 
+  # Lists all patches
+  def patches(options = {})
+    apply_patch_filters(
+      convert_patches(
+        run(
+          build_command('patches', options)
+        )
+      ),
+      options
+    )
+  end
+
   private
 
   # Setters are private
@@ -260,6 +272,46 @@ class Zypper
     end
 
     out
+  end
+
+  # Current libzypp doesn't support XML output for patches
+  def convert_patches(patches)
+    out = []
+    table_index = 0
+    patch = {}
+
+    patches.split("\n").each {|line|
+      table_index = table_index + 1
+      # Skip the first two - table header
+      next if table_index < 3
+
+      line.gsub!(/ +/, '')
+      patch = line.split '|'
+
+      out.push(
+        :catalog  => patch[0],
+        :name     => patch[1],
+        :version  => patch[2],
+        :category => patch[3].to_sym,
+        :status   => patch[4].to_sym
+      )
+    }
+
+    out
+  end
+
+  # Filters patches according to given parameters
+  #
+  # @param (Array) patches
+  # @param (Hash)  filters criteria, possible keys are catalog, name, version, category and status
+  #
+  # @example
+  #   apply_patch_filters(patches, { :status => :Needed })
+  #   apply_patch_filters(patches, { :version' => '1887', :catalog => 'SLES11-SP1-Update' })
+  def apply_patch_filters(patches = [], filters = {})
+    filters.each {|filter_key, filter_value|
+      out = out.select{|patch| patch[param_key] == param_value}
+    }
   end
 
   # Runs a command given as argument and returns the full output

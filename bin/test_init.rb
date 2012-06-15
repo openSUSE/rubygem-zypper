@@ -25,3 +25,5 @@ puts "Listing services: " + zypper.services.inspect
 puts "Installing packages: " + zypper.install(:packages => ['less']).inspect
 
 puts "Removing packages: " + zypper.remove(:packages => ['less']).inspect
+
+puts "Patches: " + zypper.patches.inspect
