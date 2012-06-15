@@ -39,14 +39,7 @@ class Zypper
   #             automatically accept all licenses, otherwise such packages
   #             cannot be installed
   def initialize(params = {})
-    @root = params[:root].nil? ?
-      DEFAULT_ROOT : params[:root]
-
-    if ! File.exists? @root
-      raise "Directory #{@root} does not exist"
-    elsif ! File.directory? @root
-      raise "#{@root} is not a directory"
-    end
+    self.root = params[:root]
 
     @auto_import_gpg = params[:auto_import_gpg].nil? ?
       DEFAULT_IMPORT_GPG : params[:auto_import_gpg]
@@ -57,12 +50,27 @@ class Zypper
     @auto_agree_with_licenses = params[:auto_agree_with_licenses].nil? ?
       DEFAULT_AUTO_AGREE_WITH_LICENSES : params[:auto_agree_with_licenses]
 
-    @chroot_method = params[:chroot_method].nil? ?
-      DEFAULT_CHROOT_METHOD : params[:chroot_method]
+    self.chroot_method = params[:chroot_method]
+  end
 
-    unless KNOWN_CHROOT_METHODS.include? @chroot_method
-      raise "Unknown chroot method #{@chroot_method}, possible are #{KNOWN_CHROOT_METHODS.join(', ')}"
+  # Changes the current root directory, the directory must exist
+  def root=(new_root = DEFAULT_ROOT)
+    if ! File.exists? new_root
+      raise "Directory #{new_root} does not exist"
+    elsif ! File.directory? new_root
+      raise "#{new_root} is not a directory"
     end
+
+    @root = new_root
+  end
+
+  # Changes the current chroot method, see constructor for possible values
+  def chroot_method=(new_chroot_method = DEFAULT_CHROOT_METHOD)
+    unless KNOWN_CHROOT_METHODS.include? new_chroot_method
+      raise "Unknown chroot method #{new_chroot_method}, possible are #{KNOWN_CHROOT_METHODS.join(', ')}"
+    end
+
+    @chroot_method = new_chroot_method
   end
 
   # Refreshes repositories
