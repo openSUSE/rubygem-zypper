@@ -138,14 +138,9 @@ class Zypper
 
   # Lists all patches
   def patches(options = {})
-    apply_patch_filters(
-      convert_patches(
-        run(
-          build_command('patches', options)
-        )
-      ),
-      options
-    )
+    if (run(build_command('patches', options)))
+      apply_patch_filters(convert_patches(last_message), options)
+    end
   end
 
   private
@@ -292,8 +287,8 @@ class Zypper
         :catalog  => patch[0],
         :name     => patch[1],
         :version  => patch[2],
-        :category => patch[3].to_sym,
-        :status   => patch[4].to_sym
+        :category => String(patch[3]),
+        :status   => String(patch[4])
       )
     }
 
@@ -306,12 +301,13 @@ class Zypper
   # @param (Hash)  filters criteria, possible keys are catalog, name, version, category and status
   #
   # @example
-  #   apply_patch_filters(patches, { :status => :Needed })
+  #   apply_patch_filters(patches, { :status => 'Needed' })
   #   apply_patch_filters(patches, { :version' => '1887', :catalog => 'SLES11-SP1-Update' })
   def apply_patch_filters(patches = [], filters = {})
     filters.each {|filter_key, filter_value|
-      out = out.select{|patch| patch[param_key] == param_value}
+      patches = patches.select{|patch| patch[param_key] == param_value}
     }
+    patches
   end
 
   # Runs a command given as argument and returns the full output
