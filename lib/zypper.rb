@@ -90,12 +90,14 @@ class Zypper
   end
 
   # Adds a new repository defined by options
-  #   (string) :url URL/URL
-  #   (string) :alias
+  #  (string) :url URL/URL
+  #  (string) :alias
   def add_repository(options = {})
     run build_command('addrepo', options)
   end
 
+  # Removes a repository defined by options
+  #  (string) :alias
   def remove_repository(options = {})
     run build_command('removerepo', options)
   end
