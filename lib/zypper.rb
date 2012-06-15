@@ -70,8 +70,7 @@ class Zypper
   # Lists all known repositories
   def repositories(options = {})
     out = xml_run build_command('repos', options.merge(:get => XML_COMMANDS_GET))
-    # FIXME: try
-    out['repo-list'][0]['repo'] || []
+    out.fetch('repo-list', []).fetch(0, {}).fetch('repo', [])
   end
 
   def clean_caches(options = {})
@@ -84,6 +83,12 @@ class Zypper
 
   def remove_repository(options = {})
     run build_command('removerepo', options)
+  end
+
+  # Lists all known services
+  def services(options = {})
+    out = xml_run build_command('services', options.merge(:get => XML_COMMANDS_GET))
+    out.fetch('service-list', []).fetch(0, {}).fetch('service', [])
   end
 
   private
