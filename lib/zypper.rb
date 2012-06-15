@@ -141,6 +141,8 @@ class Zypper
   # Setters are private
   attr_writer :last_message, :last_error_message, :last_exit_status
 
+  attr_reader :root, :chroot_method
+
   def check_mandatory_options_set(zypper_command, options, mandatory)
     mandatory.each {|option|
       raise "Missing #{option} parameter in #{zypper_command} command" if options[option].nil?
@@ -221,19 +223,19 @@ class Zypper
   end
 
   def chrooted?
-    @chroot_method == CHROOT_METHOD_CHROOT
+    chroot_method == CHROOT_METHOD_CHROOT
   end
 
   def chrooted
-    chrooted? ? 'chroot ' + Shellwords::escape(@root) + ' ' : ''
+    chrooted? ? 'chroot ' + Shellwords::escape(root) + ' ' : ''
   end
 
   def changed_root?
-    @chroot_method == CHROOT_METHOD_LOCAL
+    chroot_method == CHROOT_METHOD_LOCAL
   end
 
   def changed_root
-    changed_root? ? ' --root=' + Shellwords::escape(@root) + ' ' : ''
+    changed_root? ? ' --root=' + Shellwords::escape(root) + ' ' : ''
   end
 
   def auto_import_gpg?
