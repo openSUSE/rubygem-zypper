@@ -1,4 +1,9 @@
-zypper
-======
+# Zypper Library #
 
-Zypper (libzypp) functionality in Ruby
+This library provides Ruby access to libzypp using the
+`zypper` command.
+
+## License ##
+
+Distributed under the MIT license
+See LICENSE file.
