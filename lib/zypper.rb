@@ -73,6 +73,12 @@ class Zypper
     @chroot_method = new_chroot_method
   end
 
+  def version
+    if (run(build_command('version', options = {})))
+      version_number(last_message, options)
+    end
+  end
+
   # Refreshes repositories
   #   @param (optional) options
   #     :force - to force the refresh
@@ -150,35 +156,46 @@ class Zypper
 
   attr_reader :root, :chroot_method
 
-  def check_mandatory_options_set(zypper_command, options, mandatory)
+  def check_mandatory_options_set(zypper_action, options, mandatory)
     mandatory.each {|option|
-      raise "Missing #{option} parameter in #{zypper_command} command" if options[option].nil?
+      raise "Missing #{option} parameter in #{zypper_action} action" if options[option].nil?
     }
   end
 
-  def check_mandatory_options(zypper_command, options)
-    case zypper_command
+  def check_mandatory_options(zypper_action, options)
+    case zypper_action
       when 'addrepo'
-        check_mandatory_options_set(zypper_command, options, [:url, :alias])
+        check_mandatory_options_set(zypper_action, options, [:url, :alias])
         # FIXME: check that :url or :alias do not contain any spaces (or special characters)
       when 'removerepo'
-        check_mandatory_options_set(zypper_command, options, [:alias])
+        check_mandatory_options_set(zypper_action, options, [:alias])
         # FIXME: check that :url or :alias do not contain any spaces (or special characters)
       when 'install'
         # FIXME: check that :packages do not contain any spaces (or special characters)
-        check_mandatory_options_set(zypper_command, options, [:packages])
+        check_mandatory_options_set(zypper_action, options, [:packages])
       when 'remove'
         # FIXME: check that :packages do not contain any spaces (or special characters)
-        check_mandatory_options_set(zypper_command, options, [:packages])
+        check_mandatory_options_set(zypper_action, options, [:packages])
     end
   end
 
   # Returns the full zypper command including chroot, zypper command, options, etc.
-  def build_command(zypper_command, options = {})
-    check_mandatory_options(zypper_command, options)
+  def build_command(zypper_action, options = {})
+    check_mandatory_options(zypper_action, options)
 
     chrooted + ' zypper ' + global_options(options) + ' ' +
-      zypper_command + ' ' + zypper_command_options(zypper_command, options)
+      zypper_command(zypper_action) + ' ' + zypper_command_options(zypper_action, options)
+  end
+
+  # Returns a zypper command (shell) defined by an action
+  def zypper_command zypper_action
+    case zypper_action
+      # version is a global option but not a command
+      when 'version'
+        ''
+      else
+        zypper_action
+    end
   end
 
   def escape_items(items = [])
@@ -187,10 +204,10 @@ class Zypper
 
   # Returns string of command options depending on a given zypper command
   # combined with provided options
-  def zypper_command_options(zypper_command, options = {})
+  def zypper_command_options(zypper_action, options = {})
     ret_options = []
 
-    case zypper_command
+    case zypper_action
       when 'refresh'
         ret_options = [
           options[:force] ? '--force' : '',
@@ -214,6 +231,10 @@ class Zypper
       when 'remove'
         ret_options = [
           escape_items(options[:packages]),
+        ]
+      when 'version'
+        ret_options = [
+          '--version',
         ]
     end
 
@@ -328,5 +349,10 @@ class Zypper
     else
       last_exit_status == 0
     end
+  end
+
+  def version_number(version_string, options)
+    version = version_string.gsub(/[^0-9\.]/, '').split('.')
+    {:major => version[0].to_i, :minor => version[1].to_i, :revision => version[2].to_i}
   end
 end
