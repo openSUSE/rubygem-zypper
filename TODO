@@ -1,0 +1,7 @@
+TODO
+====
+
+* Split into more smaller classes, such as Zypper::Patch
+
+* Use rubygem-cheetah instead of POpen4
+  after 0.2.1 is released
