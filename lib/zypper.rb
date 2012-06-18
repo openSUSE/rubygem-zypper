@@ -287,8 +287,8 @@ class Zypper
         :catalog  => patch[0],
         :name     => patch[1],
         :version  => patch[2],
-        :category => String(patch[3]),
-        :status   => String(patch[4])
+        :category => patch[3],
+        :status   => patch[4]
       )
     }
 
