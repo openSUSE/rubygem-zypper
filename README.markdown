@@ -161,6 +161,13 @@ install(:packages => ['package_name_1', 'package_name_2', ...])
 true or false
 ```
 
+`package` string can consist of NAME[.ARCH][OP<VERSION>], where OP is one
+of <, <=, =, >=, >
+
+```ruby
+install :packages => ['less.x86_64=424b-10.22']
+```
+
 #### Removing Packages ####
 
 ```ruby
