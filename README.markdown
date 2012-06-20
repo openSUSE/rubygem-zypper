@@ -32,5 +32,35 @@ zypper = Zypper.new()
 Add a new repository
 
 ```ruby
-zypper.add_repository(:url => 'http://example.org/path/to/a/new/repo', :alias => 'New_Repo_at_Example_Org')
+zypper.add_repository(:url => 'http://example.org/new/repo', :alias => 'Repo_at_Example_Org')
 ```
+
+## Public Methods ##
+
+### Global ###
+
+#### Constructor ###
+
+```ruby
+zypper = Zypper.new(parameters)
+```
+
+All parameters are optional, using their default value if not set.
+
+Possible parameters in hash:
+* :root => '/changed-root' - defaults to '/'
+* :chroot_method => 'local' or 'chroot'
+* :refresh_repo => true or false - default for all newly added repositories
+* :auto_agree_with_licenses => true or false - default for installing packages
+
+#### Zypper Version ####
+
+```ruby
+zypper.version
+
+# Returns
+{:major=>1, :minor=>3, :revision=>7}
+```
+
+### Repositories ###
+### Packages ###
