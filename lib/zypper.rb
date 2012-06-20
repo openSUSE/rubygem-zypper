@@ -150,6 +150,12 @@ class Zypper
     end
   end
 
+  # returns whether a package given as parameter is installed
+  #   (string) :package
+  def installed?(options = {})
+    info(options).fetch(:installed, 'No') == 'Yes'
+  end
+
   # Lists all patches
   def patches(options = {})
     if (run(build_command('patches', options)))

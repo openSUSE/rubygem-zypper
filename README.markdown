@@ -199,6 +199,15 @@ info(:package => 'package')
 }
 ```
 
+#### Package Installed? ####
+
+```ruby
+installed?(:package => 'package')
+
+# returns
+true or false
+```
+
 ### Patches ###
 
 #### Listing Patches ####
