@@ -53,63 +53,144 @@ Possible parameters in hash:
 * :refresh_repo => true or false - default for all newly added repositories
 * :auto_agree_with_licenses => true or false - default for installing packages
 
+#### Zypper Output ####
+
+* last_message - STDOUT of the last zypper call
+* last_error_message - STDERR of the last zypper call
+* last_exit_status - exit code (integer) of the last zypper call
+
 #### Zypper Version ####
 
 ```ruby
-zypper.version
+version
 
-# Returns
+# returns
 {:major=>1, :minor=>3, :revision=>7}
 ```
 
 #### Caches Cleanup ####
 
+```ruby
 clean_caches
+
+# returns
+true or false
+```
 
 #### Importing All used GPG Keys ####
 
+```ruby
 auto_import_keys
+
+# returns
+true or false
+```
 
 ### Repositories ###
 
 #### Listing repositories ####
 
+```ruby
 repositories
+
+# returns
+[
+  { "enabled"=>"1", "autorefresh"=>"1", "name"=>"SLES11-SP1-x68_64", "url"=>["http://repo/URI"],
+    "type"=>"rpm-md", "alias"=>"repository_alias", "gpgcheck"=>"1" },
+  { ... },
+  ...
+]
+```
 
 #### Adding a Repository ####
 
-add_repository
+```ruby
+add_repository(:url => 'http://repository/URI', :alias => 'repository_alias')
+
+# returns
+true or false
+```
 
 #### Removing a Repository ####
 
-remove_repository
+```ruby
+remove_repository(:alias => 'repository_alias')
+
+# returns
+true or false
+```
 
 #### Refreshing Repositories ####
 
-refresh_repositories
+```ruby
+refresh_repositories(parameters)
+
+# returns
+true or false
+```
+
+Possible optional parameters:
+* :force - forces a complete refresh
+* :force_build - forces rebuild of the database
 
 ### Services ###
 
 #### Listing Services ####
 
+```ruby
 services
+```
 
 #### Refreshing Services ####
 
+```ruby
 refresh_services
+
+# returns
+true or false
+```
 
 ### Packages ###
 
 #### Installing Packages ####
 
-install
+```ruby
+install(:packages => ['package_name_1', 'package_name_2', ...])
+
+# returns
+true or false
+```
 
 #### Removing Packages ####
 
-remove
+```ruby
+remove(:packages => ['package_name_1', 'package_name_2', ...])
+
+# returns
+true or false
+```
 
 ### Patches ###
 
 #### Listing Patches ####
 
-patches
+```ruby
+patches(parameters)
+
+# returns
+[
+  { :status=>'Needed', :category=>'Recommended', :name=>'patch-name',
+    :version=>'patch-version', :catalog=>"repository-name"
+  },
+  { ... },
+  ...
+]
+```
+All parameters are optional and can be combined, using their default value if not set.
+
+Possible parameters in hash:
+* :status => 'Status'
+* :category => 'Category'
+* :name => 'Exact-Name'
+* :version => 'Exact-Version'
+* :catalog => 'Repo-of-Origin'
