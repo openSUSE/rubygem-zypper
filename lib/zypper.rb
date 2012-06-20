@@ -142,6 +142,14 @@ class Zypper
     run build_command('remove', options)
   end
 
+  # Returns hash of information on a package given as parameter
+  #   (string) :package
+  def info(options = {})
+    if (run(build_command('info', options)))
+      convert_info(last_message)
+    end
+  end
+
   # Lists all patches
   def patches(options = {})
     if (run(build_command('patches', options)))
@@ -176,6 +184,9 @@ class Zypper
       when 'remove'
         # FIXME: check that :packages do not contain any spaces (or special characters)
         check_mandatory_options_set(zypper_action, options, [:packages])
+      when 'info'
+        # FIXME: check that :package does not contain any spaces (or special characters)
+        check_mandatory_options_set(zypper_action, options, [:package])
     end
   end
 
@@ -200,6 +211,10 @@ class Zypper
 
   def escape_items(items = [])
     items.collect{|package| Shellwords::escape(package)}.join(' ')
+  end
+
+  def escape(item = '')
+    Shellwords::escape(item)
   end
 
   # Returns string of command options depending on a given zypper command
@@ -235,6 +250,10 @@ class Zypper
       when 'version'
         ret_options = [
           '--version',
+        ]
+      when 'info'
+        ret_options = [
+          escape(options[:package])
         ]
     end
 
@@ -312,6 +331,18 @@ class Zypper
         :status   => patch[4]
       )
     }
+
+    out
+  end
+
+  def convert_info(info)
+    out = {}
+
+    info.split("\n").each do |line|
+      if /([[:alnum:]]+): (.+)/.match(line)
+        out[$1.downcase.to_sym] = $2
+      end
+    end
 
     out
   end

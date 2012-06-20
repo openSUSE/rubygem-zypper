@@ -155,14 +155,14 @@ true or false
 #### Installing Packages ####
 
 ```ruby
-install(:packages => ['package_name_1', 'package_name_2', ...])
+install(:packages => ['package', 'package', ...])
 
 # returns
 true or false
 ```
 
 `package` string can consist of NAME[.ARCH][OP<VERSION>], where OP is one
-of <, <=, =, >=, >
+of <, <=, =, >=, >, for example:
 
 ```ruby
 install :packages => ['less.x86_64=424b-10.22']
@@ -171,10 +171,32 @@ install :packages => ['less.x86_64=424b-10.22']
 #### Removing Packages ####
 
 ```ruby
-remove(:packages => ['package_name_1', 'package_name_2', ...])
+remove(:packages => ['package', 'package', ...])
 
 # returns
 true or false
+```
+
+`package` string can consist of NAME[.ARCH][OP<VERSION>], where OP is one
+of <, <=, =, >=, >, for example:
+
+```ruby
+remove :packages => ['less.x86_64=424b-10.22']
+```
+
+#### Package Info ####
+
+```ruby
+info(:package => 'package')
+
+# Returns, e.g.
+{
+  :status=>"not installed", :version=>"424b-10.22",
+  :summary=>"Text File Browser and Pager Similar to more", :arch=>"x86_64",
+  :repository=>"SLES11-SP1-x68_64", :size=>"266.0 KiB",
+  :vendor=>"SUSE LINUX Products GmbH, Nuernberg, Germany",
+  :name=>"less", :installed=>"No", :level=>"Level 3"
+}
 ```
 
 ### Patches ###
