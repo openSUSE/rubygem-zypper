@@ -62,5 +62,54 @@ zypper.version
 {:major=>1, :minor=>3, :revision=>7}
 ```
 
+#### Caches Cleanup ####
+
+clean_caches
+
+#### Importing All used GPG Keys ####
+
+auto_import_keys
+
 ### Repositories ###
+
+#### Listing repositories ####
+
+repositories
+
+#### Adding a Repository ####
+
+add_repository
+
+#### Removing a Repository ####
+
+remove_repository
+
+#### Refreshing Repositories ####
+
+refresh_repositories
+
+### Services ###
+
+#### Listing Services ####
+
+services
+
+#### Refreshing Services ####
+
+refresh_services
+
 ### Packages ###
+
+#### Installing Packages ####
+
+install
+
+#### Removing Packages ####
+
+remove
+
+### Patches ###
+
+#### Listing Patches ####
+
+patches
