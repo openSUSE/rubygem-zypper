@@ -9,10 +9,9 @@ Distributed under the MIT license, see LICENSE file.
 
 ## Features ###
 
-* Running zypper in chroot
-* Running your system zypper over a different root directory
-* Installing and removing packages
-* Adding and removing repositories
+* Easy-to-use API
+* Running zypper in chroot or running your system zypper over a different root directory
+* Handling packages, repositories and patches
 * Easy to extend
 
 ## Usage ##
