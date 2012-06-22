@@ -293,10 +293,13 @@ zypper.packages.find
 
 Example
 ```ruby
+# All packages with name 'kernel-default'
 zypper.packages.find(:name => 'kernel-default')
 
+# All available packages matching zypp*
 zypper.packages.find(:name => 'zypp*', :status => :available)
 
+# All installed packages
 zypper.packages.find(:status => :installed)
 ```
 
