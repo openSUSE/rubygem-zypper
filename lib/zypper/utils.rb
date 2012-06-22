@@ -58,6 +58,10 @@ module ZypperUtils
       when 'info'
         # FIXME: check that :package does not contain any spaces (or special characters)
         check_mandatory_options_set(zypper_action, options, [:package])
+      # No checks:
+      #   * 'search' used also just with command-line parameters but no particular
+      #              object to search for
+      #
     end
   end
 
@@ -128,8 +132,17 @@ module ZypperUtils
         ]
       when 'info'
         ret_options = [
-          escape(options[:package])
+          escape(options[:package]),
         ]
+      when 'search'
+        ret_options = [
+          options[:package] ? escape(options[:package]) : '',
+        ]
+    end
+
+    # Additional command-line options for a command
+    if options[:cmd_options]
+      ret_options = ret_options | options[:cmd_options]
     end
 
     ret_options.join(' ')
@@ -138,6 +151,7 @@ module ZypperUtils
   # Returns string with global zypper options
   def global_options(options = {})
     [
+      (options[:quiet] ? '--quiet' : ''),
       (config.changed_root? ? '--root=' + Shellwords::escape(config.root) : ''),
       (options[:get] == XML_COMMANDS_GET ? '--xmlout' : ''),
       '--non-interactive',
