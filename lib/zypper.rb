@@ -10,6 +10,11 @@ class Zypper
 
   attr_reader :repository, :service, :package, :patch
 
+  alias :repositories :repository
+  alias :services     :service
+  alias :packages     :package
+  alias :patches      :patch
+
   def initialize(params = {})
     super(params)
 
