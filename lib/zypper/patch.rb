@@ -5,9 +5,17 @@ class Zypper
     include ZypperUtils
 
     # Lists all patches
+    #
+    # @param Hash with optional key :where (Hash)
+    #        that can consist of one or more parameters from
+    #        :catalog, :name, :version, :category, and :status.
+    #        Logical AND is always applied for all the options present
+    #
+    # @example
+    #   all(:where => {:status => 'Installed'})
     def all(options = {})
       if (run(build_command('patches', options)))
-        apply_filters(convert_patches(last_message), options)
+        apply_filters(convert_patches(last_message), options.fetch(:where, {}))
       end
     end
 

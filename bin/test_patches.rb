@@ -6,4 +6,6 @@ require 'zypper'
 
 zypper = Zypper.new(:root => '/chroot-SLES11-SP1', :chroot_method => 'chroot')
 
-puts "Patches: " + zypper.patch.all.inspect
+puts "All Patches: " + zypper.patch.all.inspect
+
+puts "Installed patches: " + zypper.patch.all(:where => {:status => 'Installed'}).inspect
