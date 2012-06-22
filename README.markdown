@@ -305,13 +305,14 @@ All parameters are optional and can be combined, using their default value if no
 
 Possible parameters in hash:
 
-# FIXME: document possible statuses and categories
+FIXME: document possible statuses and categories
+
 * :where
-** :status => 'Status'
-** :category => 'Category'
-** :name => 'Exact-Name'
-** :version => 'Exact-Version'
-** :catalog => 'Repo-of-Origin'
+    * :status => 'Status'
+    * :category => 'Category'
+    * :name => 'Exact-Name'
+    * :version => 'Exact-Version'
+    * :catalog => 'Repo-of-Origin'
 
 Example:
 zypper.patches.all(:where => {:status => 'Installed', :category => 'recommended'})
