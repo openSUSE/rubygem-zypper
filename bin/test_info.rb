@@ -6,6 +6,6 @@ require 'zypper'
 
 zypper = Zypper.new(:root => '/chroot-SLES11-SP1', :chroot_method => 'chroot')
 
-puts "Info: " + zypper.info(:package => 'less').inspect
+puts "Info: " + zypper.package.info(:package => 'less').inspect
 
-puts "Installed? " + zypper.installed?(:package => 'less').inspect
+puts "Installed? " + zypper.package.installed?(:package => 'less').inspect
