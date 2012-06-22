@@ -249,6 +249,22 @@ of <, <=, =, >=, >, for example:
 zypper.package.remove :packages => ['less.x86_64=424b-10.22']
 ```
 
+#### Installed Packages ####
+
+```ruby
+zypper.packages.installed
+
+# returns
+[
+  {
+    :type=>"package", :status=>"i", :summary=>"Package, Patch, Pattern, and Product Management",
+    :name=>"libzypp"
+  },
+  { ... },
+  ...
+]
+```
+
 #### Package Info ####
 
 ```ruby
