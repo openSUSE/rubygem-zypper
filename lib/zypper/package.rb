@@ -4,6 +4,11 @@ class Zypper
   class Package
     include ZypperUtils
 
+    PACKAGE_STATUSES = {
+      ''  => :available,
+      'i' => :installed,
+    }
+
     # Installs packages given as parmeter
     #   (array) :packages
     def install(options = {})
@@ -30,15 +35,36 @@ class Zypper
       info(options).fetch(:installed, 'No') == 'Yes'
     end
 
-    def installed(options = {})
-      additional_options = {:cmd_options => ['--installed-only', '--type package'], :quiet => true}
+    # Returns packages found using given parameters
+    #
+    # @param (Hash) of options
+    #   (string) :name - exact name of a package
+    #   (symbol) :status - :installed or :uninstalled
+    def find(options = {})
+      additional_options = {:cmd_options => ['--type package'], :quiet => true}
 
       if (run (build_command('search', options.merge(additional_options))))
         convert_packages(last_message)
       end
     end
 
+    # Returns all installed packages
+    def installed(options = {})
+      find(:status => :installed)
+    end
+
+    # Returns all available packages (that are not installed yet)
+    def available(options = {})
+      find(:status => :uninstalled)
+    end
+
     private
+
+    def status(status)
+      return PACKAGE_STATUSES[status] if PACKAGE_STATUSES[status]
+
+      raise "Unknown package status '#{status}'"
+    end
 
     # SLE11 zypper doesn't support XML output for packages
     # FIXME: merge with 'convert_patches'
@@ -58,7 +84,7 @@ class Zypper
         package = line.split '|'
 
         out.push(
-          :status  => package[0],
+          :status  => status(package[0]),
           :name    => package[1],
           :summary => package[2],
           :type    => package[3]

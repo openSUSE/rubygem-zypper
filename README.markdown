@@ -256,12 +256,48 @@ zypper.packages.installed
 # returns
 [
   {
-    :type=>"package", :status=>"i", :summary=>"Package, Patch, Pattern, and Product Management",
+    :type=>"package", :status=>:installed, :summary=>"Package, Patch, Pattern, and Product Management",
     :name=>"libzypp"
   },
   { ... },
   ...
 ]
+```
+
+#### Available Packages ####
+
+```ruby
+zypper.packages.available
+
+# returns
+[
+  {
+    :type=>"package", :status=>:available, :summary=>"Helper that makes writing ...",
+    :name=>"zypp-plugin-python"
+  },
+  { ... },
+  ...
+]
+```
+
+#### Packages Search ####
+
+```ruby
+zypper.packages.find
+
+# returns
+[
+  ... list of packages ...
+]
+```
+
+Example
+```ruby
+zypper.packages.find(:name => 'kernel-default')
+
+zypper.packages.find(:name => 'zypp*', :status => :available)
+
+zypper.packages.find(:status => :installed)
 ```
 
 #### Package Info ####

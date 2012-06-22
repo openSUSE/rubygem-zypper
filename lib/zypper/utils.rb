@@ -101,6 +101,11 @@ module ZypperUtils
   def zypper_command_options(zypper_action, options = {})
     ret_options = []
 
+    # Additional command-line options for a command
+    if options[:cmd_options]
+      ret_options = options[:cmd_options]
+    end
+
     case zypper_action
       when 'refresh'
         ret_options = [
@@ -136,13 +141,11 @@ module ZypperUtils
         ]
       when 'search'
         ret_options = [
-          options[:package] ? escape(options[:package]) : '',
+          options[:status] == :installed ? '--installed-only' : '',
+          options[:status] == :uninstalled ? '--uninstalled-only' : '',
+          options[:name] ? '--match-exact' : '',
+          options[:name] ? escape(options[:name]) : '',
         ]
-    end
-
-    # Additional command-line options for a command
-    if options[:cmd_options]
-      ret_options = ret_options | options[:cmd_options]
     end
 
     ret_options.join(' ')
