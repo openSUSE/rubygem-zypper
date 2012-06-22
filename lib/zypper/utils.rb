@@ -13,22 +13,10 @@ module ZypperUtils
 
   # Constructor
   #
-  # Possible parameters
-  #   (string)  :root
-  #             Defines the changed root environment, default '/'
-  #   (boolean) :auto_import_gpg
-  #             Automatically trust (and import) new GPG keys, default true
-  #   (boolean) :refresh_repo
-  #             Adds new repositories with autorefresh flag, default true
-  #   (string)  :chroot_method
-  #             Defines which zypper is used; 'local' uses the local zypper with
-  #             changed root directory specified as --root parameter whereas
-  #             'chroot' uses chroot binary and calls zypper directly in the
-  #             :root directory. This can be ignored if changed :root is not
-  #             defined
-  #   (boolean  :auto_agree_with_licenses
-  #             automatically accept all licenses, otherwise such packages
-  #             cannot be installed
+  # @param either instance of Zypper::Config class
+  #        or hash of options for new Zypper::Config class
+  #
+  # See Zypper::Config new() for more info
   def initialize(params = {})
     # Config is the given parameter
     if (params.instance_of?(Zypper::Config))
