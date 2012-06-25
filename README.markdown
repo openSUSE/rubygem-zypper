@@ -330,6 +330,7 @@ true or false
 ### Patches ###
 
 You can access the patches class either with
+
 ```ruby
 zypper = Zypper.new
 zypper.patch
@@ -343,8 +344,16 @@ Zypper::patch.new
 
 #### Listing Patches ####
 
+All known patches
+
 ```ruby
-zypper.patches.all(parameters)
+zypper.patches.all
+```
+
+#### Searching for Patches ####
+
+```ruby
+zypper.patches.find(filter_parameters)
 
 # returns
 [
@@ -359,14 +368,31 @@ All parameters are optional and can be combined, using their default value if no
 
 Possible parameters in hash:
 
-FIXME: document possible statuses and categories
-
-* :where
-    * :status => 'Status'
-    * :category => 'Category'
-    * :name => 'Exact-Name'
-    * :version => 'Exact-Version'
-    * :catalog => 'Repo-of-Origin'
+* :status => 'Status' (see Zypper::Patch::Status class constants)
+* :category => 'Category' (See Zypper::Patch::Category class constants)
+* :name => 'Exact-Name'
+* :version => 'Exact-Version'
+* :catalog => 'Alias-of-the-repo'
 
 Example:
-zypper.patches.all(:where => {:status => 'Installed', :category => 'recommended'})
+```ruby
+zypper.patches.all(:status => Zypper::Patch::Status::INSTALLED, :category => Zypper::Patch::Category::RECOMMENDED)
+```
+
+#### Applicable Patches ####
+
+Lists all applicable patches. All filter parameters are optional and can
+be used the same as for the `find()` method.
+
+```ruby
+zypper.patches.applicable(filter_parameters)
+```
+
+#### Installed Patches
+
+Lists all installed patches. All filter parameters are optional and can
+be used the same as for the `find()` method.
+
+```ruby
+zypper.patches.installed(filter_parameters)
+```

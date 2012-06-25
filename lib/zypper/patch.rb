@@ -2,7 +2,22 @@ require 'zypper/utils'
 
 class Zypper
   class Patch
+    class Status
+      NEEDED         = 'Needed'
+      INSTALLED      = 'Installed'
+      NOT_APPLICABLE = 'Not Applicable'
+    end
+
+    class Category
+      SECURITY    = 'security'
+      RECOMMENDED = 'recommended'
+      FEATURE     = 'feature'
+      OPTIONAL    = 'optional'
+    end
+
     include ZypperUtils
+
+    FILTER_OPTIONS = [:repository, :name, :version, :category, :status]
 
     # Lists all patches
     #
@@ -12,13 +27,28 @@ class Zypper
     #        Logical AND is always applied for all the options present
     #
     # @example
-    #   all(:where => {:status => 'Installed'})
-    def all(options = {})
+    #   all(:status => 'Installed')
+    def find(options = {})
       additional_options = {:quiet => true}
 
       if (run(build_command('patches', options.merge(additional_options))))
-        apply_filters(convert_patches(last_message), options.fetch(:where, {}))
+        apply_filters(convert_patches(last_message), options)
       end
+    end
+
+    # Lists all known patches
+    def all(options = {})
+      find
+    end
+
+    # All applicable patches
+    def applicable(options = {})
+      find(options.merge(:status => Status::NEEDED))
+    end
+
+    # All installed patches
+    def installed(options = {})
+      find(options.merge(:status => Status::INSTALLED))
     end
 
     private
@@ -61,6 +91,8 @@ class Zypper
     #   apply_patch_filters(patches, { :version' => '1887', :repository => 'SLES11-SP1-Update' })
     def apply_filters(patches = [], filters = {})
       filters.each {|filter_key, filter_value|
+        raise "Unknown filter parameter '#{filter_key}'" unless FILTER_OPTIONS.include? filter_key
+
         patches = patches.select{|patch| patch[filter_key] == filter_value}
       }
       patches
