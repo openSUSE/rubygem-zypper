@@ -141,10 +141,10 @@ module ZypperUtils
         ]
       when 'search'
         ret_options = [
-          options[:status] == :installed ? '--installed-only' : '',
-          options[:status] == :uninstalled ? '--uninstalled-only' : '',
-          options[:name] ? '--match-exact' : '',
-          options[:name] ? escape(options[:name]) : '',
+          options[:status] == Zypper::Package::Status::INSTALLED ? '--installed-only' : '',
+          options[:status] == Zypper::Package::Status::AVAILABLE ? '--uninstalled-only' : '',
+
+          options[:name] ? '--match-exact ' + escape(options[:name]) : '',
         ]
     end
 

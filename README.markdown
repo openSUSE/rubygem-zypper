@@ -250,6 +250,8 @@ zypper.package.remove :packages => ['less.x86_64=424b-10.22']
 
 #### Installed Packages ####
 
+Lists all installed packages. 
+
 ```ruby
 zypper.packages.installed
 
@@ -376,7 +378,10 @@ Possible parameters in hash:
 
 Example:
 ```ruby
-zypper.patches.all(:status => Zypper::Patch::Status::INSTALLED, :category => Zypper::Patch::Category::RECOMMENDED)
+zypper.patches.all(
+  :status => Zypper::Patch::Status::INSTALLED,
+  :category => Zypper::Patch::Category::RECOMMENDED
+)
 ```
 
 #### Applicable Patches ####

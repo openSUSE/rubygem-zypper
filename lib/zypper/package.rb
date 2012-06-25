@@ -4,9 +4,14 @@ class Zypper
   class Package
     include ZypperUtils
 
+    class Status
+      INSTALLED = :installed
+      AVAILABLE = :uninstalled
+    end
+
     PACKAGE_STATUSES = {
-      ''  => :available,
-      'i' => :installed,
+      ''  => Status::AVAILABLE,
+      'i' => Status::INSTALLED,
     }
 
     # Installs packages given as parmeter
@@ -32,14 +37,14 @@ class Zypper
     # returns whether a package given as parameter is installed
     #   (string) :package
     def installed?(options = {})
-      info(options).fetch(:installed, 'No') == 'Yes'
+      info(options).fetch(Status::INSTALLED, 'No') == 'Yes'
     end
 
     # Returns packages found using given parameters
     #
     # @param (Hash) of options
     #   (string) :name - exact name of a package
-    #   (symbol) :status - :installed or :uninstalled
+    #   (symbol) :status - See Zypper::Package::Status class constants
     def find(options = {})
       additional_options = {:cmd_options => ['--type package'], :quiet => true}
 
@@ -50,12 +55,12 @@ class Zypper
 
     # Returns all installed packages
     def installed(options = {})
-      find(:status => :installed)
+      find(options.merge(:status => Status::INSTALLED))
     end
 
     # Returns all available packages (that are not installed yet)
     def available(options = {})
-      find(:status => :uninstalled)
+      find(options.merge(:status => Status::AVAILABLE))
     end
 
     private
