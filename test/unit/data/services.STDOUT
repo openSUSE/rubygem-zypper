@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<stream>
+<service-list>
+<service alias="nu_novell_com" name="nu_novell_com" enabled="1" autorefresh="0" url="https://nu.novell.com/?credentials=NCCcredentials" type="ris">
+<repo alias="nu_novell_com:SLE11-SDK-SP1-Pool" name="SLE11-SDK-SP1-Pool" type="rpm-md" enabled="1" autorefresh="1" gpgcheck="1">
+<url>https://nu.novell.com/repo/$RCE/SLE11-SDK-SP1-Pool/sle-11-x86_64?credentials=NCCcredentials</url>
+</repo>
+<repo alias="nu_novell_com:SLE11-SDK-SP1-Updates" name="SLE11-SDK-SP1-Updates" type="rpm-md" enabled="1" autorefresh="1" gpgcheck="1">
+<url>https://nu.novell.com/repo/$RCE/SLE11-SDK-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials</url>
+</repo>
+<repo alias="nu_novell_com:SLE11-SDK-SP2-Core" name="SLE11-SDK-SP2-Core" type="rpm-md" enabled="1" autorefresh="1" gpgcheck="1">
+<url>https://nu.novell.com/repo/$RCE/SLE11-SDK-SP2-Core/sle-11-x86_64?credentials=NCCcredentials</url>
+</repo>
+<repo alias="nu_novell_com:SLE11-SDK-SP2-Updates" name="SLE11-SDK-SP2-Updates" type="rpm-md" enabled="1" autorefresh="1" gpgcheck="1">
+<url>https://nu.novell.com/repo/$RCE/SLE11-SDK-SP2-Updates/sle-11-x86_64?credentials=NCCcredentials</url>
+</repo>
+<repo alias="nu_novell_com:SLE11-SP1-Debuginfo-Pool" name="SLE11-SP1-Debuginfo-Pool" enabled="0" autorefresh="1" gpgcheck="1">
+<url>https://nu.novell.com/repo/$RCE/SLE11-SP1-Debuginfo-Pool/sle-11-x86_64?credentials=NCCcredentials</url>
+</repo>
+<repo alias="nu_novell_com:SLE11-SP1-Debuginfo-Updates" name="SLE11-SP1-Debuginfo-Updates" enabled="0" autorefresh="1" gpgcheck="1">
+<url>https://nu.novell.com/repo/$RCE/SLE11-SP1-Debuginfo-Updates/sle-11-x86_64?credentials=NCCcredentials</url>
+</repo>
+<repo alias="nu_novell_com:SLE11-SP2-Debuginfo-Core" name="SLE11-SP2-Debuginfo-Core" enabled="0" autorefresh="1" gpgcheck="1">
+<url>https://nu.novell.com/repo/$RCE/SLE11-SP2-Debuginfo-Core/sle-11-x86_64?credentials=NCCcredentials</url>
+</repo>
+<repo alias="nu_novell_com:SLE11-SP2-Debuginfo-Updates" name="SLE11-SP2-Debuginfo-Updates" enabled="0" autorefresh="1" gpgcheck="1">
+<url>https://nu.novell.com/repo/$RCE/SLE11-SP2-Debuginfo-Updates/sle-11-x86_64?credentials=NCCcredentials</url>
+</repo>
+<repo alias="nu_novell_com:SLE11-WebYaST-SP1-Pool" name="SLE11-WebYaST-SP1-Pool" enabled="0" autorefresh="1" gpgcheck="1">
+<url>https://nu.novell.com/repo/$RCE/SLE11-WebYaST-SP1-Pool/sle-11-x86_64?credentials=NCCcredentials</url>
+</repo>
+<repo alias="nu_novell_com:SLE11-WebYaST-SP1-Updates" name="SLE11-WebYaST-SP1-Updates" enabled="0" autorefresh="1" gpgcheck="1">
+<url>https://nu.novell.com/repo/$RCE/SLE11-WebYaST-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials</url>
+</repo>
+<repo alias="nu_novell_com:SLE11-WebYaST-SP2-Pool" name="SLE11-WebYaST-SP2-Pool" enabled="0" autorefresh="1" gpgcheck="1">
+<url>https://nu.novell.com/repo/$RCE/SLE11-WebYaST-SP2-Pool/sle-11-x86_64?credentials=NCCcredentials</url>
+</repo>
+<repo alias="nu_novell_com:SLE11-WebYaST-SP2-Updates" name="SLE11-WebYaST-SP2-Updates" enabled="0" autorefresh="1" gpgcheck="1">
+<url>https://nu.novell.com/repo/$RCE/SLE11-WebYaST-SP2-Updates/sle-11-x86_64?credentials=NCCcredentials</url>
+</repo>
+<repo alias="nu_novell_com:SLES11-Extras" name="SLES11-Extras" enabled="0" autorefresh="1" gpgcheck="1">
+<url>https://nu.novell.com/repo/$RCE/SLES11-Extras/sle-11-x86_64?credentials=NCCcredentials</url>
+</repo>
+<repo alias="nu_novell_com:SLES11-SP1-Pool" name="SLES11-SP1-Pool" type="rpm-md" enabled="1" autorefresh="1" gpgcheck="1">
+<url>https://nu.novell.com/repo/$RCE/SLES11-SP1-Pool/sle-11-x86_64?credentials=NCCcredentials</url>
+</repo>
+<repo alias="nu_novell_com:SLES11-SP1-Updates" name="SLES11-SP1-Updates" type="rpm-md" enabled="1" autorefresh="1" gpgcheck="1">
+<url>https://nu.novell.com/repo/$RCE/SLES11-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials</url>
+</repo>
+<repo alias="nu_novell_com:SLES11-SP2-Core" name="SLES11-SP2-Core" type="rpm-md" enabled="1" autorefresh="1" gpgcheck="1">
+<url>https://nu.novell.com/repo/$RCE/SLES11-SP2-Core/sle-11-x86_64?credentials=NCCcredentials</url>
+</repo>
+<repo alias="nu_novell_com:SLES11-SP2-Extension-Store" name="SLES11-SP2-Extension-Store" type="rpm-md" enabled="1" autorefresh="1" gpgcheck="1">
+<url>https://nu.novell.com/repo/$RCE/SLES11-SP2-Extension-Store/sle-11-x86_64?credentials=NCCcredentials</url>
+</repo>
+<repo alias="nu_novell_com:SLES11-SP2-Updates" name="SLES11-SP2-Updates" type="rpm-md" enabled="1" autorefresh="1" gpgcheck="1">
+<url>https://nu.novell.com/repo/$RCE/SLES11-SP2-Updates/sle-11-x86_64?credentials=NCCcredentials</url>
+</repo>
+</service>
+<repo alias="SLES11-SP1-x68_64" name="SLES11-SP1-x68_64" type="rpm-md" enabled="1" autorefresh="1" gpgcheck="1">
+<url>http://smt.suse.de/repo/$RCE/SLES11-SP1-Pool/sle-11-x86_64/</url>
+</repo>
+</service-list>
+</stream>
