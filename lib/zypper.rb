@@ -39,7 +39,7 @@ class Zypper
   # Auto-imports all GPG keys from repositories
   def auto_import_keys(options = {})
     previous_auto_import_gpg = config.auto_import_gpg
-    ret = refresh_repositories
+    ret = repositories.refresh
     config.auto_import_gpg = previous_auto_import_gpg
     ret
   end

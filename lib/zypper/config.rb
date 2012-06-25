@@ -41,6 +41,8 @@ class Zypper
       @auto_agree_with_licenses = (params[:auto_agree_with_licenses] || DEFAULT_AUTO_AGREE_WITH_LICENSES)
     end
 
+    attr_accessor :auto_import_gpg
+
     attr_reader :root, :chroot_method
 
     # Changes the current root directory, the directory must exist
