@@ -182,7 +182,7 @@ module ZypperUtils
       self.last_error_message = stderr.read.strip
     end
 
-    last_exit_status = cmd_ret.exitstatus
+    self.last_exit_status = cmd_ret.exitstatus
 
     if params[:get] == XML_COMMANDS_GET
       last_message

@@ -1,9 +1,13 @@
-0.2.1 (2012-06-26)
-------------------
+0.2.2
+-----
+* Fixed last_exit_status method and thus all methods returning boolean
+
+0.2.1
+-----
 * Debugging output turned off
 
-0.2.0 (2012-06-26)
-------------------
+0.2.0
+-----
 * Split into smaller one-task libraries
 * Added plural aliases for for accessing subclasses (patch -> patches,
   package -> packages, ...)
@@ -12,8 +16,8 @@
 * Added testsuites
 * Packaging into gem
 
-0.1.0 (2012-06-20)
-------------------
+0.1.0
+-----
 * Initial implementation using POpen4
 * Added Services and Repositories handling
 * Added Packages and Packages handling
