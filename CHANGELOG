@@ -1,4 +1,8 @@
-0.0.9 (2012-06-26)
+0.2.1 (2012-06-26)
+------------------
+* Debugging output turned off
+
+0.2.0 (2012-06-26)
 ------------------
 * Split into smaller one-task libraries
 * Added plural aliases for for accessing subclasses (patch -> patches,
@@ -8,7 +12,7 @@
 * Added testsuites
 * Packaging into gem
 
-0.0.1 (2012-06-20)
+0.1.0 (2012-06-20)
 ------------------
 * Initial implementation using POpen4
 * Added Services and Repositories handling

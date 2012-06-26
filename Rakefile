@@ -10,4 +10,9 @@ task :test do
   end
 end
 
+task :gem do
+  puts "Creating gem..."
+  puts `gem build zypper.gemspec`
+end
+
 task :default => :test

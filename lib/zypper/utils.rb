@@ -177,9 +177,6 @@ module ZypperUtils
   # Runs a command given as argument and returns the full output
   # Exit status can be acquired using last_exit_status call
   def run(command, params = {})
-    # FIXME: it's here just for debugging
-    puts "DEBUG: " + command
-
     cmd_ret = POpen4::popen4(command) do |stdout, stderr, stdin, pid|
       self.last_message       = stdout.read.strip
       self.last_error_message = stderr.read.strip
