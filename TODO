@@ -1,5 +1,6 @@
 TODO
 ====
 
-* Use rubygem-cheetah instead of POpen4
-  after 0.2.1 is released
+* Maximal test coverage
+* Use rubygem-cheetah instead of POpen4 after 0.2.0+ is released
+* Support logging via Cheetah, do not print zypper commands anymore
