@@ -46,6 +46,17 @@ class Zypper
       find(options.merge(:status => Status::NEEDED))
     end
 
+    # Are there any applicable patches present?
+    def applicable?(options = {})
+      applicable(options).size > 0
+    end
+
+    # Installs all applicable patches
+    def install(options = {})
+
+      run(build_command('patch', options))
+    end
+
     # All installed patches
     def installed(options = {})
       find(options.merge(:status => Status::INSTALLED))

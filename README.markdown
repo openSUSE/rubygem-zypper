@@ -393,6 +393,16 @@ be used the same as for the `find()` method.
 zypper.patches.applicable(filter_parameters)
 ```
 
+#### Any Applicable Patches? ####
+
+Returns whether there are any applicable patches present.
+All filter parameters are optional and can be used the same as for the
+`find()` method.
+
+```ruby
+zypper.patches.applicable?(filter_parameters)
+```
+
 #### Installed Patches
 
 Lists all installed patches. All filter parameters are optional and can
@@ -400,4 +410,12 @@ be used the same as for the `find()` method.
 
 ```ruby
 zypper.patches.installed(filter_parameters)
+```
+
+#### Install Patches ####
+
+Installs all applicable patches.
+
+```ruby
+zypper.patches.install
 ```
