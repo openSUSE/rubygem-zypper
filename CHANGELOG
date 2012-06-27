@@ -1,3 +1,6 @@
+* Extended testsuites
+* Project moved to openSUSE/rubygem-zypper at GitHub
+
 0.2.2
 -----
 * Fixed last_exit_status method and thus all methods returning boolean

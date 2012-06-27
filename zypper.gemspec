@@ -9,7 +9,7 @@ root_dir = File.expand_path(File.dirname(__FILE__))
 Gem::Specification.new do |s|
   s.name        = "zypper"
   s.version     = Zypper::VERSION
-  s.date        = "2012-06-26"
+  s.date        = "2012-06-27"
   s.summary     = "Library for accessing zypper"
   s.description = gem_description
   s.author      = "Lukas Ocilka"
@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
     "README.markdown",
     "VERSION",
   ]
-  s.homepage    = "https://github.com/kobliha/zypper"
+  s.homepage    = "https://github.com/openSUSE/rubygem-zypper"
   s.license     = "MIT"
 
   s.add_dependency "popen4"
