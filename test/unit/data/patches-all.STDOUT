@@ -1,0 +1,1330 @@
+Catalog               | Name                                           | Version | Category    | Status        
+----------------------+------------------------------------------------+---------+-------------+---------------
+SLE11-SDK-SP1-Updates | sdksp1-ConsoleKit                              | 4613    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ImageMagick                             | 4402    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ImageMagick                             | 6226    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-Mesa                                    | 5721    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-MozillaFirefox                          | 2609    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-MozillaFirefox                          | 2781    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-MozillaFirefox                          | 3160    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-MozillaFirefox                          | 3456    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-MozillaFirefox                          | 3693    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-MozillaFirefox                          | 4104    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-MozillaFirefox                          | 4227    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-MozillaFirefox                          | 4463    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-MozillaFirefox                          | 4804    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-MozillaFirefox                          | 5057    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-MozillaFirefox                          | 5224    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-MozillaFirefox                          | 5429    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-MozillaFirefox                          | 6007    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-MozillaFirefox                          | 6425    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-NM-UMTS-Modem-Support                   | 4275    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-NetworkManager                          | 3103    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-NetworkManager                          | 5381    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-OpenOffice_org                          | 3089    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-OpenOffice_org-321                      | 2586    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-POS_Image3-201102                       | 3980    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-SDK-SP2-Migration                       | 5914    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-a2ps                                    | 5370    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-alsa                                    | 5378    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-alsa-pulseaudio                         | 4429    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ant-phone                               | 5364    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-apache2                                 | 5090    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-apache2                                 | 5344    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-apache2                                 | 5482    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-apache2-201202                          | 5760    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-apache2-mod_fcgid                       | 4934    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-apache2-mod_php5                        | 2881    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-apache2-mod_php5                        | 3264    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-apache2-mod_php5                        | 3490    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-apache2-mod_php5                        | 4133    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-apache2-mod_php5                        | 4663    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-apache2-mod_php5                        | 5964    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-apache2-mod_php5                        | 6252    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-apache2-mod_php5                        | 6316    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-apparmor-parser                         | 4567    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-atk                                     | 5736    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-audit                                   | 5368    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-audit                                   | 5837    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-audit                                   | 6221    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-augeas                                  | 5275    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-augeas                                  | 5911    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-augeas                                  | 6136    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-bind                                    | 4635    | feature     | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-bind                                    | 4846    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-bind                                    | 5228    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-bind                                    | 5462    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-bind                                    | 6388    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-bluez                                   | 3142    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-build                                   | 2862    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-build                                   | 3846    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-bytefx-data-mysql                       | 2474    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-bytefx-data-mysql                       | 4260    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-bzip2                                   | 3125    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-cifs-mount                              | 3100    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-cifs-mount                              | 4050    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-cifs-mount                              | 5000    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-cifs-mount                              | 6124    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-cifs-mount                              | 6210    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-collectd-494                            | 5410    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-compat-dapl                             | 3865    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-compat-dapl                             | 4738    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-compat-dapl                             | 5015    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-compat-libldap-2_3-0                    | 3614    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-compat-libldap-2_3-0                    | 4086    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-compat-libldap-2_3-0                    | 6104    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-compiz                                  | 5383    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-cpp45                                   | 5864    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-crash                                   | 3683    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-createrepo                              | 2887    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ctdb                                    | 5770    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-cups                                    | 3576    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-cups                                    | 5180    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-curl                                    | 3078    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-curl                                    | 6237    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-cvs                                     | 5860    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-cyrus-imapd                             | 4731    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-cyrus-imapd                             | 5096    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-cyrus-imapd                             | 5233    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-dapl                                    | 4750    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-dapl-debug-addition                     | 5016    | feature     | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-dbus-1                                  | 3941    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-dbus-1                                  | 4434    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-dbus-1                                  | 4799    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-dbus-1                                  | 5680    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-dbus-1-glib                             | 3182    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-dbus-1-glib                             | 5226    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-dhcp                                    | 4315    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-dhcp                                    | 4413    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-dhcp                                    | 5079    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-dhcp                                    | 5720    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-dhcpv6                                  | 4317    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-doxygen                                 | 6071    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-emacs                                   | 5155    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-empathy                                 | 5363    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-epiphany                                | 3611    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-espeak                                  | 6105    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-evince                                  | 3769    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-evince                                  | 3998    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-evolution-201008                        | 2942    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-evolution-201010                        | 3344    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-evolution-201108                        | 5030    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-expat                                   | 6200    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-file                                    | 4511    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-finch                                   | 3707    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-finch                                   | 5389    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-finch                                   | 5586    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-finch                                   | 6294    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-firefox-10                              | 5754    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-firefox-201204                          | 6224    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-firefox36upgrade                        | 3026    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-freetype2                               | 2919    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-freetype2                               | 3202    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-freetype2                               | 4089    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-freetype2                               | 4921    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-freetype2                               | 5491    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-freetype2                               | 6052    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-gdb-73                                  | 5008    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ghostscript-devel                       | 2708    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ghostscript-devel                       | 5916    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-gimp                                    | 4107    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-gimp                                    | 4631    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-gimp                                    | 5193    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-git                                     | 3860    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-glibc                                   | 2700    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-glibc                                   | 3392    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-glibc                                   | 4572    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-glibc                                   | 5555    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-glibc                                   | 6134    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-glibc-blowfish                          | 4944    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-gnome-control-center                    | 3002    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-gnome-control-center                    | 4751    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-gnome-desktop                           | 4823    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-gnome-media                             | 4752    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-gnome-panel                             | 4573    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-gnome-settings-daemon                   | 2519    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-gnome-settings-daemon                   | 3888    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-gnome-settings-daemon                   | 5327    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-gnutls                                  | 3651    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-gnutls                                  | 5684    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-gtk2                                    | 2495    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-gtk2                                    | 5044    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-gvfs                                    | 5365    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-gwenview                                | 3062    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-hal                                     | 6328    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-hwinfo                                  | 6334    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-icu                                     | 5653    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-iproute2                                | 3780    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-iproute2                                | 5366    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-jasper                                  | 5523    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-java-1_4_2-ibm                          | 2483    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-java-1_4_2-ibm                          | 2813    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-java-1_4_2-ibm                          | 3528    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-java-1_4_2-ibm                          | 4024    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-java-1_4_2-ibm                          | 4481    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-java-1_4_2-ibm                          | 5014    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-java-1_4_2-ibm                          | 5609    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-java-1_4_2-ibm                          | 6360    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-java-1_6_0-ibm                          | 2553    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-java-1_6_0-ibm                          | 2795    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-java-1_6_0-ibm                          | 3724    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-java-1_6_0-ibm                          | 4109    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-java-1_6_0-ibm                          | 4875    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-java-1_6_0-ibm                          | 5601    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-java-1_6_0-ibm                          | 5872    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-java-1_6_0-ibm                          | 6225    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-java-1_6_0-openjdk                      | 5692    | optional    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-jaxen-update-201101                     | 3768    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-kde4-kdnssd                             | 3563    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-kdelibs4                                | 4217    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-kdelibs4                                | 4407    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-kexec-tools                             | 3327    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-kexec-tools                             | 4419    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-kiosk-mode-fixes                        | 4820    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-kiwi                                    | 4764    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-kiwi                                    | 5192    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-klogd                                   | 5969    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-krb5                                    | 3549    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-krb5                                    | 3839    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-krb5                                    | 5594    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ksh                                     | 4210    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ksh                                     | 4732    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ksh                                     | 5135    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ksh                                     | 5470    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ksh                                     | 5879    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ksh                                     | 6394    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libQtWebKit-devel                       | 5131    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libQtWebKit-devel                       | 5624    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libQtWebKit-devel                       | 6269    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libapr-util1                            | 4845    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libblkid-devel                          | 5026    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libcap                                  | 5380    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libcgroup-devel                         | 4081    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libcgroup-devel                         | 6057    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libedit                                 | 5071    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libflaim                                | 4472    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libfreebl3                              | 3340    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libgnomesu                              | 4735    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libgnomesu                              | 4805    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libgssglue                              | 4620    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libibmad-umad-dependencies              | 4467    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libldap-2_4-2                           | 2551    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libmalaga-devel                         | 4517    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libmsn                                  | 5448    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libmysqlclient-devel                    | 3243    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libmysqlclient-devel                    | 5285    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libmysqlclient-devel                    | 5743    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libneon-devel                           | 5386    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libnotify-notifcation-daemon            | 5242    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libopensc2                              | 3729    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libopenssl-devel                        | 3209    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libopenssl-devel                        | 3539    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libopenssl-devel                        | 3661    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libopenssl-devel                        | 3938    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libopenssl-devel                        | 4662    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libopenssl-devel                        | 5160    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libopenssl-devel                        | 5635    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libopenssl-devel                        | 5808    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libopenssl-devel                        | 6054    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libopenssl-devel                        | 6245    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libopenssl-devel                        | 6350    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libpapi                                 | 4468    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libpcap                                 | 4667    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libpciaccess0                           | 5103    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libpng-devel                            | 3046    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libpng-devel                            | 4948    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libpng-devel                            | 5857    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libpng-devel                            | 6077    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libpoppler-devel                        | 3338    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libpython2_6-1_0                        | 3493    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libpython2_6-1_0                        | 4512    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libpython2_6-1_0                        | 5753    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libpython2_6-1_0                        | 6362    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libraptor-devel                         | 5836    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libreoffice-34                          | 5271    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libreoffice-34-1                        | 5648    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libreoffice-345                         | 6003    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libreoffice331                          | 4082    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-librsvg                                 | 5166    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libslab                                 | 2617    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libslab                                 | 4668    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libslab                                 | 6068    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libsmi                                  | 3518    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libsndfile                              | 4902    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libsnmp15                               | 2598    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libsnmp15                               | 5713    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libsoup                                 | 4945    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libssh2-1                               | 6142    | feature     | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libtiff-devel                           | 4145    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libtiff-devel                           | 4397    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libtiff-devel                           | 6106    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libtirpc                                | 4907    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libudev-devel                           | 3032    | recommended | Installed     
+SLE11-SDK-SP1-Updates | sdksp1-libudev-devel                           | 6264    | recommended | Installed     
+SLE11-SDK-SP1-Updates | sdksp1-libupsclient1                           | 4730    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libvirt                                 | 2957    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libvirt                                 | 4870    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libvirt                                 | 6081    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libvorbis                               | 2487    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libvorbis                               | 5851    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libwebkit                               | 4917    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libxcrypt                               | 5041    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libxml2                                 | 3461    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libxml2                                 | 3775    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libxml2                                 | 4813    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libxml2                                 | 5489    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libxml2                                 | 5654    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libxml2                                 | 5869    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libxml2                                 | 6365    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libxslt                                 | 5810    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-libzypp                                 | 5077    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-lighttpd                                | 5739    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-limal-ca-mgm                            | 5694    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-lvm2-device-mapper                      | 3659    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-lvm2-device-mapper                      | 4810    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-lvm2-device-mapper                      | 5651    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-memcached                               | 2454    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-mozilla-xulrunner191                    | 3419    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-mozilla-xulrunner191                    | 3558    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-mozilla-xulrunner191                    | 3694    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-mozilla-xulrunner191                    | 4085    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-mozilla-xulrunner191                    | 4228    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-mozilla-xulrunner191                    | 4461    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-mozilla-xulrunner192                    | 5764    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-mozilla-xulrunner192                    | 5840    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-multipath-tools-201007                  | 2730    | recommended | Installed     
+SLE11-SDK-SP1-Updates | sdksp1-mvapich                                 | 5776    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-nagios                                  | 4849    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-nagios                                  | 5227    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-nautilus                                | 4982    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-nautilus                                | 6099    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ncpfs                                   | 2456    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ncpfs                                   | 5045    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-nfs-libtirpc                            | 3239    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-novell-ui-client                        | 4033    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-nss-31211                               | 5138    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-nut-26                                  | 5432    | feature     | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-obs-api                                 | 3311    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ofed                                    | 5384    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ofed-152                                | 4126    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-openCryptoki-libica                     | 4485    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-openldap2-2426                          | 5387    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-openslp                                 | 3312    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-openslp                                 | 3965    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-openslp                                 | 4722    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-openslp                                 | 5552    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-openssl-fips-capability                 | 5588    | feature     | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-opie                                    | 4815    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-osc-0134                                | 6064    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-osc-tools-201108                        | 5073    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ozerocdoff                              | 5311    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-pam                                     | 5342    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-pam                                     | 6449    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-pam_fp-validity                         | 5117    | feature     | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-pango                                   | 4065    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-parted                                  | 4510    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-parted                                  | 6209    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-pcsc-ccid                               | 3889    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-pcsc-lite                               | 2670    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-perl                                    | 2834    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-perl                                    | 3804    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-perl                                    | 4499    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-perl-Config-General                     | 4776    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-perl-DBD-Pg                             | 6018    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-perl-GDGraph                            | 5035    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-perl-IO-Socket-INET6                    | 5954    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-perl-Sub-Uplevel                        | 5784    | optional    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-perl-Test-Exception                     | 5785    | optional    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-php5-pear-mail                          | 3381    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-popt                                    | 3678    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-popt                                    | 5256    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-popt                                    | 2647    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-popt                                    | 6186    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-postfix                                 | 4177    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-postfix                                 | 4478    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-postfix                                 | 5538    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-postgresql                              | 2458    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-postgresql                              | 3977    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-postgresql                              | 6023    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-powertop                                | 2650    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-powertop                                | 5563    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ppp                                     | 4906    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-python-lxml                             | 5788    | optional    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-python-randomisation-update             | 6310    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-python-setools                          | 4423    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-python-setuptools                       | 5066    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-qemu                                    | 5803    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-quagga                                  | 3536    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-quagga                                  | 4023    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-quagga                                  | 5169    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-quagga                                  | 6241    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-rails-238-update                        | 3620    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-rarian                                  | 5354    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-release-fix-201103                      | 4067    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-release-notes-sdk                       | 2850    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ruby                                    | 4585    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ruby                                    | 5048    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ruby-187p357                            | 5716    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-rubygem-actionpack-2_1                  | 5875    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-rubygem-sqlite3                         | 4401    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-rubygems                                | 5517    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-rubyonrails-2314-201202                 | 5884    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-samba                                   | 2827    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-samba                                   | 4770    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-samba                                   | 5566    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-sane-backends                           | 5297    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-sax2                                    | 2635    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-sblim-cmpi-base                         | 4618    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-scim                                    | 3725    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-scim-bridge                             | 5661    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-sdk-201102                              | 3911    | optional    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-seahorse                                | 5841    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-selinux-201006                          | 2692    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-sendxmpp-201109                         | 5065    | feature     | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-sg3_utils                               | 4851    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-sg3_utils                               | 5815    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-sg3_utils                               | 6205    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-softwaremgmt-201101                     | 3719    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-softwaremgmt-201102                     | 3828    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-softwaremgmt-201103                     | 4017    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-softwaremgmt-201107                     | 4822    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-softwaremgmt-201202                     | 5738    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-softwaremgmt-201203                     | 5947    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-spamassassin-33                         | 5643    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-ssl-support-python-urlgrabber           | 3802    | feature     | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-subversion                              | 3425    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-subversion                              | 3842    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-subversion                              | 4691    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-suse-manager-registration-tools         | 3970    | optional    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-syslogd                                 | 5351    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-t1lib                                   | 3789    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-t1lib                                   | 6195    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-taglib                                  | 6179    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-taglib-sharp                            | 3531    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-timezone-2010l                          | 2996    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-timezone-2011c                          | 4091    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-timezone-2011d                          | 4223    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-timezone-2011g                          | 4475    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-timezone-2011j                          | 5142    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-timezone-2011m                          | 5333    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-timezone-2012b                          | 5933    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-timezone-2012c                          | 6243    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-tk                                      | 4513    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-tomcat-6-for-sles                       | 5709    | feature     | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-tomcat6                                 | 2740    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-tomcat6                                 | 3858    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-tomcat6                                 | 4022    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-tomcat6                                 | 4361    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-tomcat6                                 | 5003    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-tomcat6                                 | 5150    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-tomcat6                                 | 5375    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-tree                                    | 4991    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-turnpike                                | 5237    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-util-linux-and-fuse-201103              | 4095    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-virt-utils-qemu                         | 4600    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-vte                                     | 2718    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-webkit-1.2.7-update                     | 4765    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-webyast-1.1                             | 3594    | feature     | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-wireshark                               | 4267    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-wireshark                               | 4476    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-wireshark                               | 5281    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-wireshark                               | 5433    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-wireshark                               | 5741    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-wireshark                               | 6170    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-wireshark                               | 6381    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-x11-input-wacom                         | 4988    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xdelta                                  | 5257    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xen-201008                              | 3013    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xen-201101                              | 3749    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xen-201103                              | 4129    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xen-201105                              | 4491    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xen-201107                              | 4977    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xen-201111                              | 5334    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xen-201202                              | 5796    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xen-201206                              | 6399    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xfig                                    | 2912    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xfig                                    | 4772    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xorg-x11-Xvnc                           | 2968    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xorg-x11-Xvnc                           | 3655    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xorg-x11-Xvnc                           | 4626    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xorg-x11-Xvnc                           | 4963    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xorg-x11-Xvnc                           | 5479    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xorg-x11-Xvnc                           | 5561    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xorg-x11-driver-input-sax2              | 4596    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xorg-x11-intel-update                   | 4660    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xorg-x11-libX11                         | 5481    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xorg-x11-server-libs                    | 5294    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xrdp-201101                             | 3997    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-xz-503                                  | 5025    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yasm                                    | 5789    | feature     | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2                                   | 4781    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2                                   | 4961    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-ca-management                     | 5171    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-core                              | 5078    | security    | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-dns-server                        | 3996    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-dns-server                        | 6401    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-http-server                       | 5779    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-installation                      | 5029    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-instserver                        | 2614    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-kerberos-server                   | 5501    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-ldap-server                       | 2753    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-ncurses                           | 4504    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-ncurses-pkg-ncurses               | 2935    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-ncurses-pkg-ncurses               | 5187    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-network                           | 3267    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-network                           | 4527    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-network                           | 4681    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-network                           | 4993    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-product-creator                   | 4103    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-qt                                | 3830    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-qt                                | 4649    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-storage                           | 5172    | recommended | Not Applicable
+SLE11-SDK-SP1-Updates | sdksp1-yast2-storage                           | 6267    | recommended | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-NetworkManager                          | 5894    | recommended | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-apache2-mod_php53                       | 5958    | security    | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-apache2-mod_php53                       | 6251    | security    | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-audit                                   | 5853    | recommended | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-audit                                   | 6214    | recommended | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-bind                                    | 6382    | security    | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-glibc                                   | 6135    | recommended | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-glibc                                   | 6352    | recommended | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-hal                                     | 6332    | recommended | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-hwinfo                                  | 6337    | recommended | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-kiwi                                    | 6123    | recommended | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-ldapsmb                                 | 6145    | security    | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-ldapsmb                                 | 6211    | security    | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-libsatsolverapp0                        | 5973    | recommended | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-parted                                  | 6156    | recommended | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-pciutils                                | 5883    | feature     | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-popt                                    | 6191    | security    | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-sax2                                    | 5939    | recommended | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-sg3_utils                               | 6000    | recommended | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-sg3_utils                               | 6206    | recommended | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-softwaremgmt-201203                     | 5957    | recommended | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-xen-201206                              | 6400    | recommended | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-xorg-x11-Xvnc                           | 5867    | recommended | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-yast2-dns-server                        | 6402    | recommended | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-yast2-http-server                       | 5855    | recommended | Not Applicable
+SLE11-SDK-SP2-Updates | sdksp2-yast2-network                           | 6020    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ConsoleKit                             | 4613    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-ImageMagick                            | 4402    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ImageMagick                            | 6226    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-MIME-Convert-BinHex                    | 4426    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-Mesa                                   | 5721    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-MozillaFirefox                         | 2609    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-MozillaFirefox                         | 2781    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-MozillaFirefox                         | 3160    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-MozillaFirefox                         | 3456    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-MozillaFirefox                         | 3693    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-MozillaFirefox                         | 4104    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-MozillaFirefox                         | 4227    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-MozillaFirefox                         | 4463    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-MozillaFirefox                         | 4804    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-MozillaFirefox                         | 5057    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-MozillaFirefox                         | 5224    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-MozillaFirefox                         | 5429    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-MozillaFirefox                         | 5807    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-MozillaFirefox                         | 5838    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-MozillaFirefox                         | 6007    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-MozillaFirefox                         | 6425    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-MozillaFirefox-branding-SLED           | 2455    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-NM-UMTS-Modem-Support                  | 4275    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-NetworkManager                         | 3103    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-NetworkManager                         | 5381    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-NetworkManager-gnome                   | 5621    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-OpenOffice_org-321                     | 2586    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-SLES-SP2-Migration                     | 5910    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-SuSEfirewall2                          | 4448    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-a2ps                                   | 5370    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-aaa_base                               | 3368    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-aaa_base                               | 3910    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-aaa_base                               | 5755    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-aaa_base                               | 6384    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-aaa_base-sysvinit                      | 2610    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-acct                                   | 5144    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-acpid                                  | 4897    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-alsa                                   | 5378    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-alsa-plugins                           | 5274    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-alsa-pulseaudio                        | 4429    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ant-phone                              | 5364    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-apache2                                | 5090    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-apache2                                | 5344    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-apache2                                | 5482    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-apache2-201202                         | 5760    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-apache2-mod_php5                       | 2881    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-apache2-mod_php5                       | 3264    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-apache2-mod_php5                       | 3490    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-apache2-mod_php5                       | 4133    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-apache2-mod_php5                       | 4663    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-apache2-mod_php5                       | 5964    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-apache2-mod_php5                       | 6252    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-apache2-mod_php5                       | 6316    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-apcupsd                                | 4952    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-apcupsd                                | 5070    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-apparmor-parser                        | 4567    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-apparmor-profiles                      | 5820    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ark                                    | 5906    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-arptables                              | 5371    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-at                                     | 4571    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-atftp                                  | 5472    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-atk                                    | 5736    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-audit                                  | 5368    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-audit                                  | 5837    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-audit                                  | 6221    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-augeas                                 | 5275    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-augeas                                 | 5911    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-augeas                                 | 6136    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-autofs                                 | 3643    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-autofs                                 | 4809    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-autofs                                 | 5248    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-autofs                                 | 5515    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-bind                                   | 4635    | feature     | Not Applicable
+SLES11-SP1-Updates    | slessp1-bind                                   | 4846    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-bind                                   | 5228    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-bind                                   | 5462    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-bind                                   | 6388    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-bluez                                  | 3142    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-brasero                                | 3288    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-busybox                                | 5952    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-bytefx-data-mysql                      | 2474    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-bytefx-data-mysql                      | 4260    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-bzip2                                  | 3125    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-cifs-mount                             | 3100    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-cifs-mount                             | 4050    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-cifs-mount                             | 5000    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-cifs-mount                             | 6124    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-cifs-mount                             | 6210    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-ckermit                                | 5570    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-clamav                                 | 2480    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-clamav                                 | 3441    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-clamav                                 | 3646    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-clamav                                 | 4155    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-clamav                                 | 4706    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-clamav                                 | 4942    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-clamav                                 | 5309    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-compat-dapl                            | 3865    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-compat-dapl                            | 4738    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-compat-dapl                            | 5015    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-compat-libldap-2_3-0                   | 3614    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-compat-libldap-2_3-0                   | 4086    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-compat-libldap-2_3-0                   | 6104    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-coreutils                              | 4403    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-coreutils                              | 4817    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-coreutils                              | 5391    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-coreutils                              | 5849    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-coreutils                              | 6050    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-cpio                                   | 3776    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-cpio                                   | 4883    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-cpupower                               | 5590    | optional    | Not Applicable
+SLES11-SP1-Updates    | slessp1-crash                                  | 3683    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-cron                                   | 4710    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-cron                                   | 5704    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-cups                                   | 3576    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-cups                                   | 5180    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-curl                                   | 3078    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-curl                                   | 6237    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-cvs                                    | 5860    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-cyrus-imapd                            | 4731    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-cyrus-imapd                            | 5096    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-cyrus-imapd                            | 5233    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-dapl                                   | 4750    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-dapl-debug-addition                    | 5016    | feature     | Not Applicable
+SLES11-SP1-Updates    | slessp1-dbus-1                                 | 3941    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-dbus-1                                 | 4434    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-dbus-1                                 | 4799    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-dbus-1                                 | 5680    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-dbus-1-glib                            | 3182    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-dbus-1-glib                            | 5226    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-dhcp                                   | 4315    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-dhcp                                   | 4413    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-dhcp                                   | 5079    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-dhcp                                   | 5720    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-dhcpcd                                 | 4316    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-dhcpcd                                 | 4389    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-dhcpcd                                 | 5611    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-dhcpcd                                 | 6301    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-dhcpv6                                 | 4317    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-dialog                                 | 2936    | optional    | Not Applicable
+SLES11-SP1-Updates    | slessp1-diffutils                              | 3526    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-dmraid                                 | 5230    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ecryptfs-utils                         | 4956    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-ecryptfs-utils                         | 6187    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-ed                                     | 3792    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-eject                                  | 5547    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-emacs                                  | 5155    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-enscript                               | 4739    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-espeak                                 | 6105    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ethtool                                | 3191    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-evince                                 | 3769    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-evince                                 | 3998    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-evolution-201008                       | 2942    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-evolution-201010                       | 3344    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-evolution-201108                       | 5030    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-expat                                  | 6200    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-fetchmail                              | 4395    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-fetchmail                              | 5283    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-file                                   | 4511    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-findutils                              | 4367    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-firefox-10                             | 5754    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-firefox-201204                         | 6224    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-firefox36upgrade                       | 3026    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-foomatic-filters                       | 4966    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-freeradius-server                      | 5199    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-freetype2                              | 2919    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-freetype2                              | 3202    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-freetype2                              | 4089    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-freetype2                              | 4921    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-freetype2                              | 5491    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-freetype2                              | 6052    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-gawk                                   | 5019    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-gdb-73                                 | 5008    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gdm                                    | 3222    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-gdm                                    | 4257    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gdm                                    | 4605    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gdm                                    | 5504    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gdm                                    | 5945    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ghostscript-devel                      | 2708    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-ghostscript-devel                      | 5916    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-glibc                                  | 2700    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-glibc                                  | 3392    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-glibc                                  | 4572    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-glibc                                  | 5555    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-glibc                                  | 6134    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-glibc-blowfish                         | 4944    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-gnome-applets-brightness               | 4825    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gnome-applets-brightness               | 5683    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gnome-control-center                   | 3002    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gnome-control-center                   | 4751    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gnome-desktop                          | 4823    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gnome-media                            | 4752    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gnome-packagekit                       | 4996    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gnome-packagekit                       | 5773    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gnome-panel                            | 4573    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gnome-power-manager                    | 3743    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gnome-screensaver                      | 4826    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gnome-screensaver                      | 5641    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gnome-settings-daemon                  | 2519    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gnome-settings-daemon                  | 3888    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gnome-settings-daemon                  | 5327    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gnome-system-monitor                   | 5277    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gnutls                                 | 3651    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-gnutls                                 | 5684    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-gok                                    | 5001    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gpg2                                   | 2822    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-gpg2                                   | 5310    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-gpg2                                   | 5778    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-grub                                   | 2554    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-grub                                   | 5405    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gtk2                                   | 2495    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gtk2                                   | 5044    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gvfs                                   | 5365    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-gwenview                               | 3062    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-hal                                    | 6328    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-haveged                                | 4740    | optional    | Not Applicable
+SLES11-SP1-Updates    | slessp1-haveged                                | 5682    | optional    | Not Applicable
+SLES11-SP1-Updates    | slessp1-hplip                                  | 3735    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-hplip                                  | 4989    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-hplip                                  | 5307    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-hwinfo                                 | 6334    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-icu                                    | 5653    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-iftop                                  | 5201    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-indian-rupee-support                   | 4553    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-iotop                                  | 4686    | optional    | Not Applicable
+SLES11-SP1-Updates    | slessp1-ipmitool                               | 5780    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-iproute2                               | 3780    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-iproute2                               | 5366    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-iptables                               | 5591    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-iputils                                | 2724    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-iputils                                | 4390    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-irqbalance                             | 5328    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-iscsitarget                            | 2879    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-iscsitarget                            | 5966    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ivman                                  | 2889    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ivman                                  | 3492    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-iwl6000-ucode                          | 4741    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-jasper                                 | 5523    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-java-1_4_2-ibm                         | 2483    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-java-1_4_2-ibm                         | 2813    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-java-1_4_2-ibm                         | 3528    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-java-1_4_2-ibm                         | 4024    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-java-1_4_2-ibm                         | 4481    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-java-1_4_2-ibm                         | 5014    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-java-1_4_2-ibm                         | 5609    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-java-1_4_2-ibm                         | 6360    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-java-1_6_0-ibm                         | 2553    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-java-1_6_0-ibm                         | 2795    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-java-1_6_0-ibm                         | 3724    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-java-1_6_0-ibm                         | 4109    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-java-1_6_0-ibm                         | 4875    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-java-1_6_0-ibm                         | 5601    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-java-1_6_0-ibm                         | 5872    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-java-1_6_0-ibm                         | 6225    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-java-1_6_0-openjdk                     | 5692    | optional    | Not Applicable
+SLES11-SP1-Updates    | slessp1-jaxen-update-201101                    | 3768    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-kbd                                    | 3825    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kbd                                    | 5231    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-kde4-kdnssd                            | 3563    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kde4-kupdateapplet                     | 5527    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-kdebase4-SLED                          | 5693    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-kdelibs4                               | 4217    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kdelibs4                               | 4407    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kdump                                  | 5516    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-kernel                                 | 2570    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kernel                                 | 2764    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kernel                                 | 3069    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kernel                                 | 3148    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kernel                                 | 3280    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kernel                                 | 3445    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kernel                                 | 3763    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kernel                                 | 4043    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kernel                                 | 4376    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kernel                                 | 4889    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kernel                                 | 5055    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kernel                                 | 5223    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kernel                                 | 5511    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kernel                                 | 5732    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kernel                                 | 6230    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kernel-ec2                             | 3463    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kexec-tools                            | 3327    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-kexec-tools                            | 4419    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-kiosk-mode-fixes                       | 4820    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-klogd                                  | 5969    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-kmps-201112                            | 5509    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-kpartx                                 | 3654    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-krb5                                   | 3549    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-krb5                                   | 3839    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-krb5                                   | 5594    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-ksh                                    | 4210    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ksh                                    | 4732    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ksh                                    | 5135    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ksh                                    | 5470    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ksh                                    | 5879    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ksh                                    | 6394    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-kvm                                    | 3224    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-kvm                                    | 4574    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kvm                                    | 4814    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-kvm                                    | 5379    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-kvm                                    | 5655    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libHX13                                | 2980    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libQtWebKit-devel                      | 5131    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libQtWebKit-devel                      | 5624    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libQtWebKit-devel                      | 6269    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-libapr-util1                           | 4845    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libblkid-devel                         | 5026    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-libcap                                 | 5380    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libcgroup-devel                        | 4081    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libcgroup-devel                        | 6057    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-libfreebl3                             | 3340    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libgdiplus0                            | 3000    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libgnomesu                             | 4735    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libgnomesu                             | 4805    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libgssglue                             | 4620    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libibmad-umad-dependencies             | 4467    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-libldap-2_4-2                          | 2551    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libmsn                                 | 5448    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-libmysqlclient-devel                   | 3243    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libmysqlclient-devel                   | 5285    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libmysqlclient-devel                   | 5743    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-libneon-devel                          | 5386    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-libnet                                 | 5771    | feature     | Not Applicable
+SLES11-SP1-Updates    | slessp1-libnl-32bit                            | 4658    | optional    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libnotify-notifcation-daemon           | 5242    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-libopensc2                             | 3729    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libopenssl-devel                       | 3209    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libopenssl-devel                       | 3539    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libopenssl-devel                       | 3661    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libopenssl-devel                       | 3938    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libopenssl-devel                       | 4662    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libopenssl-devel                       | 5160    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libopenssl-devel                       | 5635    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libopenssl-devel                       | 5808    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libopenssl-devel                       | 6054    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libopenssl-devel                       | 6245    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libopenssl-devel                       | 6350    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libpapi                                | 4468    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-libpcap                                | 4667    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-libpciaccess0                          | 5103    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libpng-devel                           | 3046    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libpng-devel                           | 4948    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libpng-devel                           | 5857    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libpng-devel                           | 6077    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libpng12-0                             | 2473    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libpoppler-devel                       | 3338    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libpython2_6-1_0                       | 3493    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libpython2_6-1_0                       | 4512    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libpython2_6-1_0                       | 5753    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-libpython2_6-1_0                       | 6362    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-libraptor-devel                        | 5836    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libreoffice-34                         | 5271    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-librsvg                                | 5166    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libslab                                | 2617    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-libslab                                | 4668    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-libslab                                | 6068    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-libsndfile                             | 4902    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libsnmp15                              | 2598    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-libsnmp15                              | 5713    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-libsoup                                | 4945    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libssh2-1                              | 6142    | feature     | Not Applicable
+SLES11-SP1-Updates    | slessp1-libtiff-devel                          | 4145    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libtiff-devel                          | 4397    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libtiff-devel                          | 6106    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libtirpc                               | 4907    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-libudev-devel                          | 3032    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-libudev-devel                          | 6264    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-libupsclient1                          | 4730    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-libvirt                                | 2957    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libvirt                                | 4870    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libvirt                                | 6081    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-libvorbis                              | 2487    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libvorbis                              | 5851    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libxcrypt                              | 5041    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libxml2                                | 3461    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libxml2                                | 3775    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libxml2                                | 4813    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libxml2                                | 5489    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libxml2                                | 5654    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libxml2                                | 5869    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libxml2                                | 6365    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-libxslt                                | 5810    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libzip1                                | 4191    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-libzypp                                | 5077    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-limal-ca-mgm                           | 5694    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-lldpad                                 | 4341    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-logrotate                              | 4583    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-logrotate                              | 5745    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-logwatch                               | 4236    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-logwatch                               | 5367    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-lvm2                                   | 6417    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-lvm2-201006                            | 2672    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-lvm2-clvm2                             | 2982    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-lvm2-device-mapper                     | 3659    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-lvm2-device-mapper                     | 4810    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-lvm2-device-mapper                     | 5651    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-mailman                                | 4433    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-mailman                                | 6315    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-man-pages                              | 5064    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-man-pages                              | 6322    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-mcelog                                 | 4861    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-mcelog                                 | 6188    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-mcstrans                               | 5245    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-mdadm                                  | 4526    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-mdadm                                  | 4744    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-microcode_ctl                          | 2588    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-microcode_ctl                          | 5197    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-microcode_ctl                          | 5633    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-minicom                                | 5159    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-minicom                                | 5304    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-mipv6d                                 | 3049    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-mirror-timeout-fix                     | 4273    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-mkinitrd                               | 2696    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-mkinitrd                               | 5111    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-mkinitrd                               | 5781    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-module-init-tools                      | 3227    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-mozilla-xulrunner191                   | 3419    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-mozilla-xulrunner191                   | 3558    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-mozilla-xulrunner191                   | 3694    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-mozilla-xulrunner191                   | 4085    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-mozilla-xulrunner191                   | 4228    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-mozilla-xulrunner191                   | 4461    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-mozilla-xulrunner192                   | 5764    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-mozilla-xulrunner192                   | 5840    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-multipath-tools                        | 5205    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-multipath-tools-201007                 | 2730    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-multipath-tools-201106                 | 4659    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-mysql-tools                            | 5663    | optional    | Not Applicable
+SLES11-SP1-Updates    | slessp1-nagios                                 | 4849    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-nagios                                 | 5227    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-nagios-nrpe                            | 4876    | optional    | Not Applicable
+SLES11-SP1-Updates    | slessp1-nagios-plugins                         | 6201    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-nautilus                               | 4982    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-nautilus                               | 6099    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-net-tools                              | 5505    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-netcat-openbsd                         | 4745    | optional    | Not Applicable
+SLES11-SP1-Updates    | slessp1-nfs-client                             | 3405    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-nfs-client                             | 4349    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-nfs-client                             | 4760    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-nfs-client                             | 4821    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-nfs-client                             | 5814    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-nfs-client                             | 6176    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-nfs-ipv6-support                       | 3058    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-nfs-libtirpc                           | 3239    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-nfs4-acl-tools                         | 5052    | feature     | Not Applicable
+SLES11-SP1-Updates    | slessp1-notification-daemon                    | 2488    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-nss-31211                              | 5138    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-nss_ldap                               | 2972    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-nss_ldap                               | 3856    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-nss_ldap                               | 5645    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ntp                                    | 4008    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ntp                                    | 5143    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ntp                                    | 5402    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ntp                                    | 5565    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-nut-26                                 | 5432    | feature     | Not Applicable
+SLES11-SP1-Updates    | slessp1-ofed                                   | 5384    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-ofed-152                               | 4126    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-open-fcoe                              | 4061    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-open-iscsi                             | 2872    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-open-iscsi                             | 3936    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-open-iscsi                             | 4918    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-openCryptoki-libica                    | 4485    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-openldap2-2426                         | 5387    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-openslp                                | 3312    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-openslp                                | 3965    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-openslp                                | 4722    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-openslp                                | 5552    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-openssh                                | 4652    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-openssh                                | 5625    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-openssh                                | 5912    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-openssl-certs                          | 5085    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-openssl-certs                          | 6452    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-openssl-fips-capability                | 5588    | feature     | Installed     
+SLES11-SP1-Updates    | slessp1-openswan                               | 5424    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-opie                                   | 4815    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-pam                                    | 5342    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-pam                                    | 6449    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-pam-modules                            | 4690    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-pam-modules                            | 4728    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-pam-modules                            | 5550    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-pam_apparmor                           | 5388    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-pam_fp-validity                        | 5117    | feature     | Installed     
+SLES11-SP1-Updates    | slessp1-pam_ssh                                | 5232    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-pam_ssh                                | 5687    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-pango                                  | 4065    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-parted                                 | 4510    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-parted                                 | 6209    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-patch                                  | 2894    | optional    | Not Applicable
+SLES11-SP1-Updates    | slessp1-pciutils                               | 5953    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-pcmciautils                            | 5250    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-pcsc-ccid                              | 3889    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-pcsc-lite                              | 2670    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-perf                                   | 5417    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-perl                                   | 2834    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-perl                                   | 3804    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-perl                                   | 4499    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-perl-Bootloader                        | 2509    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-perl-Bootloader                        | 3834    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-perl-Bootloader                        | 4368    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-perl-Bootloader                        | 4695    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-perl-Bootloader                        | 4916    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-perl-Bootloader                        | 5188    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-perl-Bootloader                        | 5263    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-perl-Config-General                    | 4776    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-perl-IO-Socket-INET6                   | 5954    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-perl-IO-Socket-SSL-libwww              | 5011    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-perl-libwww-perl                       | 4603    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-perl-libwww-perl                       | 4951    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-perl-spamassassin                      | 3673    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-permissions                            | 3956    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-pm-utils                               | 5305    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-pmtools                                | 5562    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-policycoreutils                        | 5236    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-popt                                   | 3678    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-popt                                   | 5256    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-popt                                   | 2647    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-popt                                   | 6186    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-postfix                                | 4177    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-postfix                                | 4478    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-postfix                                | 5538    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-postgresql                             | 2458    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-postgresql                             | 3977    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-postgresql                             | 6023    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-postgresql-jdbc                        | 3739    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ppp                                    | 4906    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-procps                                 | 3178    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-procps                                 | 3674    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-puppet                                 | 2932    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-puppet                                 | 5421    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-puppet                                 | 5748    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-puppet                                 | 5876    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-puppet                                 | 6115    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-pure-ftpd                              | 4247    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-pure-ftpd                              | 4360    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-pure-ftpd                              | 4611    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-pure-ftpd                              | 4766    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-pure-ftpd                              | 5091    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-pure-ftpd                              | 5234    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-python-augeas                          | 5291    | optional    | Not Applicable
+SLES11-SP1-Updates    | slessp1-python-lxml                            | 5788    | optional    | Not Applicable
+SLES11-SP1-Updates    | slessp1-python-pam                             | 6025    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-python-pyasn1                          | 6139    | optional    | Not Applicable
+SLES11-SP1-Updates    | slessp1-python-randomisation-update            | 6310    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-python-setools                         | 4423    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-quagga                                 | 3536    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-quagga                                 | 4023    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-quagga                                 | 5169    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-quagga                                 | 6241    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-quota                                  | 5733    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-radvd                                  | 5397    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-rarian                                 | 5354    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-release-fix-201103                     | 4067    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-release-notes-sles                     | 2498    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-release-notes-sles                     | 4579    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-release-notes-sles                     | 4850    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-release-notes-sles                     | 5047    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-release-notes-sles                     | 5123    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-release-notes-sles                     | 5442    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-release-notes-sles                     | 5646    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-release-notes-sles                     | 6157    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-res-signingkeys                        | 6098    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-rsh                                    | 4711    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-rsync                                  | 4300    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-rsync                                  | 4645    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-rsyslog                                | 4554    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ruby                                   | 4585    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-ruby                                   | 5048    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ruby-187p357                           | 5716    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-samba                                  | 2827    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-samba                                  | 4770    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-samba                                  | 5566    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sane-backends                          | 5297    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sapconf                                | 4920    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sax2                                   | 2635    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sblim-cmpi-base                        | 4618    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sblim-cmpi-network                     | 5189    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sblim-sfcb                             | 3326    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sblim-sfcb                             | 4807    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sblim-sfcb                             | 5146    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sblim-testsuite                        | 6204    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sces-client                            | 5435    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-scim                                   | 3725    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-scim-bridge                            | 5661    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-screen                                 | 5284    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-seccheck                               | 5703    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-selinux-201006                         | 2692    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-sendxmpp-201109                        | 5065    | feature     | Not Applicable
+SLES11-SP1-Updates    | slessp1-sg3_utils                              | 4851    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sg3_utils                              | 5815    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sg3_utils                              | 6205    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sle-apparmor-quick_en-pdf              | 3716    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sle-apparmor-quick_en-pdf              | 3885    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sles-amazonec2                         | 3257    | feature     | Not Applicable
+SLES11-SP1-Updates    | slessp1-sles-deployment_ko                     | 3541    | optional    | Not Applicable
+SLES11-SP1-Updates    | slessp1-sles-manuals_en                        | 2607    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sles-manuals_en                        | 2990    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-smartmontools                          | 5525    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-smt-client                             | 4957    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-smt-client                             | 5348    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-softwaremgmt-201101                    | 3719    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-softwaremgmt-201102                    | 3828    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-softwaremgmt-201103                    | 4017    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-softwaremgmt-201107                    | 4822    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-softwaremgmt-201202                    | 5738    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-softwaremgmt-201203                    | 5947    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-spacewalk-check                        | 4342    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-spacewalk-check                        | 4871    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-spamassassin-33                        | 5643    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-squid                                  | 5584    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-squid3                                 | 4960    | feature     | Not Applicable
+SLES11-SP1-Updates    | slessp1-squid3                                 | 5095    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-squid3                                 | 5583    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-squidGuard                             | 4953    | feature     | Not Applicable
+SLES11-SP1-Updates    | slessp1-ssl-support-python-urlgrabber          | 3802    | feature     | Not Applicable
+SLES11-SP1-Updates    | slessp1-star                                   | 4178    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-strongswan                             | 2790    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-strongswan                             | 4102    | feature     | Not Applicable
+SLES11-SP1-Updates    | slessp1-strongswan                             | 6333    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-stunnel                                | 4679    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sudo                                   | 5141    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sudo                                   | 5616    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sudo                                   | 6306    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-supportutils                           | 2721    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-supportutils                           | 3468    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-supportutils                           | 5322    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-suse-build-key                         | 3890    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-suse-manager-registration-tools        | 3970    | optional    | Not Applicable
+SLES11-SP1-Updates    | slessp1-suse-manager-registration-tools-201109 | 5167    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-suse-sam                               | 2733    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-suse-sam                               | 3513    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-suseRegister                           | 2953    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-suseRegister                           | 3723    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-suseRegister                           | 4343    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-susemanager-201105-03                  | 4597    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-suspend                                | 5246    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sysconfig                              | 2521    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-sysconfig                              | 3778    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-sysconfig                              | 3954    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-sysconfig                              | 4414    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-sysconfig                              | 4746    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-sysconfig                              | 5618    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-sysconfig                              | 6335    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-syslog-ng                              | 3211    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-syslog-ng                              | 5705    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-syslog-ng                              | 5772    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-syslogd                                | 5351    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sysstat                                | 2934    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sysstat                                | 5147    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sysstat                                | 5356    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sysstat                                | 6259    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-system-config-printer                  | 2511    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-system-config-printer                  | 5607    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-system-config-printer                  | 5886    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-sysvinit                               | 2853    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-sysvinit                               | 5468    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-t1lib                                  | 3789    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-t1lib                                  | 6195    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-taglib                                 | 6179    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-tar                                    | 4726    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-tar                                    | 5589    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-tcsh                                   | 4954    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-tcsh                                   | 6336    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-tftp                                   | 4565    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-tftp                                   | 4786    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-tgt                                    | 2959    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-tgt                                    | 4409    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-tightvnc                               | 4852    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-timezone-2010l                         | 2996    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-timezone-2011c                         | 4091    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-timezone-2011d                         | 4223    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-timezone-2011g                         | 4475    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-timezone-2011j                         | 5142    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-timezone-2011m                         | 5333    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-timezone-2012b                         | 5933    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-timezone-2012c                         | 6243    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-tk                                     | 4513    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-tomcat-6-for-sles                      | 5709    | feature     | Not Applicable
+SLES11-SP1-Updates    | slessp1-tomcat6                                | 5759    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-unattended_upgrade_dud                 | 3679    | feature     | Not Applicable
+SLES11-SP1-Updates    | slessp1-unattended_upgrade_dud                 | 5681    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-usb_modeswitch                         | 3801    | feature     | Not Applicable
+SLES11-SP1-Updates    | slessp1-util-linux-and-fuse-201103             | 4095    | security    | Installed     
+SLES11-SP1-Updates    | slessp1-vino                                   | 4575    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-virt-utils-qemu                        | 4600    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-vsftpd                                 | 4114    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-vsftpd                                 | 5522    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-vte                                    | 2718    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-w3m                                    | 2563    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-webyast-1.1                            | 3594    | feature     | Not Applicable
+SLES11-SP1-Updates    | slessp1-wireshark                              | 4267    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-wireshark                              | 4476    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-wireshark                              | 5281    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-wireshark                              | 5433    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-wireshark                              | 5741    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-wireshark                              | 6170    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-wireshark                              | 6381    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-x3270                                  | 4983    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xen-201008                             | 3013    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xen-201101                             | 3749    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xen-201103                             | 4129    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xen-201105                             | 4491    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-xen-201107                             | 4977    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-xen-201111                             | 5334    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xen-201202                             | 5796    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-xen-201206                             | 6399    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-xinetd                                 | 3034    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xinetd                                 | 5427    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xkeyboard-config                       | 3979    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xkeyboard-config                       | 5282    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xkeyboard-config                       | 5638    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xorg-x11                               | 3180    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xorg-x11                               | 4199    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-xorg-x11                               | 5158    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xorg-x11-Xvnc                          | 2968    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-xorg-x11-Xvnc                          | 3655    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xorg-x11-Xvnc                          | 4626    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xorg-x11-Xvnc                          | 4963    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xorg-x11-Xvnc                          | 5479    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-xorg-x11-Xvnc                          | 5561    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xorg-x11-driver-input                  | 3514    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xorg-x11-driver-input-sax2             | 4596    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xorg-x11-intel-update                  | 4660    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xorg-x11-libX11                        | 5481    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-xorg-x11-server-dmx                    | 6112    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-xorg-x11-server-libs                   | 5294    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-xpdf                                   | 3377    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-xpdf-tools                             | 3857    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-xz-503                                 | 5025    | recommended | Installed     
+SLES11-SP1-Updates    | slessp1-yast2                                  | 4781    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2                                  | 4961    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-ca-management                    | 5171    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-core                             | 5078    | security    | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-country                          | 5140    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-dbus-server                      | 2735    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-dns-server                       | 3996    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-dns-server                       | 6401    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-firstboot                        | 3984    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-http-server                      | 5779    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-installation                     | 5029    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-instserver                       | 2614    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-iscsi-client                     | 4685    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-kerberos-server                  | 5501    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-ldap-client                      | 3233    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-ldap-client                      | 4492    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-ldap-server                      | 2753    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-ncurses                          | 4504    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-ncurses-pkg-ncurses              | 2935    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-ncurses-pkg-ncurses              | 5187    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-network                          | 3267    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-network                          | 4527    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-network                          | 4681    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-network                          | 4993    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-qt                               | 3830    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-qt                               | 4649    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-rdp                              | 5940    | optional    | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-registration                     | 3199    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-registration                     | 4344    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-registration                     | 5545    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-samba-client                     | 2792    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-storage                          | 5172    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-storage                          | 6267    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-users                            | 5414    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yast2-x11                              | 4519    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yelp                                   | 3471    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-ypserv                                 | 4955    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-yudit                                  | 4514    | recommended | Not Applicable
+SLES11-SP1-Updates    | slessp1-zypp-plugin-spacewalk                  | 5474    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-NetworkManager                         | 5894    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-aaa_base                               | 6386    | recommended | Installed     
+SLES11-SP2-Updates    | slessp2-apache2-mod_php53                      | 5958    | security    | Not Applicable
+SLES11-SP2-Updates    | slessp2-apache2-mod_php53                      | 6251    | security    | Not Applicable
+SLES11-SP2-Updates    | slessp2-audit                                  | 5853    | recommended | Installed     
+SLES11-SP2-Updates    | slessp2-audit                                  | 6214    | recommended | Installed     
+SLES11-SP2-Updates    | slessp2-bind                                   | 6382    | security    | Not Applicable
+SLES11-SP2-Updates    | slessp2-btrfsprogs                             | 6175    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-cifs-utils                             | 6196    | security    | Not Applicable
+SLES11-SP2-Updates    | slessp2-coreutils                              | 6058    | recommended | Installed     
+SLES11-SP2-Updates    | slessp2-ethtool                                | 6130    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-glibc                                  | 6135    | recommended | Installed     
+SLES11-SP2-Updates    | slessp2-glibc                                  | 6352    | recommended | Installed     
+SLES11-SP2-Updates    | slessp2-hal                                    | 6332    | recommended | Installed     
+SLES11-SP2-Updates    | slessp2-hwinfo                                 | 6337    | recommended | Installed     
+SLES11-SP2-Updates    | slessp2-ipmitool                               | 5862    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-kernel                                 | 6164    | security    | Not Applicable
+SLES11-SP2-Updates    | slessp2-kernel                                 | 6349    | security    | Not Applicable
+SLES11-SP2-Updates    | slessp2-kernel                                 | 6463    | security    | Not Applicable
+SLES11-SP2-Updates    | slessp2-kernel-ec2                             | 5881    | optional    | Not Applicable
+SLES11-SP2-Updates    | slessp2-ldapsmb                                | 6145    | security    | Not Applicable
+SLES11-SP2-Updates    | slessp2-ldapsmb                                | 6211    | security    | Not Applicable
+SLES11-SP2-Updates    | slessp2-libsatsolverapp0                       | 5973    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-lvm2                                   | 6418    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-man-pages                              | 6323    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-mcelog                                 | 6190    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-mdadm                                  | 5905    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-mkinitrd                               | 6014    | recommended | Installed     
+SLES11-SP2-Updates    | slessp2-nfs-client                             | 6222    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-parted                                 | 6156    | recommended | Installed     
+SLES11-SP2-Updates    | slessp2-pciutils                               | 5883    | feature     | Installed     
+SLES11-SP2-Updates    | slessp2-popt                                   | 6191    | security    | Installed     
+SLES11-SP2-Updates    | slessp2-procps                                 | 6254    | recommended | Installed     
+SLES11-SP2-Updates    | slessp2-release-notes-sles                     | 6263    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-release-notes-sles                     | 6433    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-release-notes-sles-201203              | 5968    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-sax2                                   | 5939    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-sg3_utils                              | 6000    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-sg3_utils                              | 6206    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-sles-manuals_en                        | 6268    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-sles-release                           | 5961    | recommended | Installed     
+SLES11-SP2-Updates    | slessp2-smt-client                             | 6118    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-softwaremgmt-201203                    | 5957    | recommended | Installed     
+SLES11-SP2-Updates    | slessp2-subscription-tools                     | 6287    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-suse-ami-tools                         | 5887    | optional    | Not Applicable
+SLES11-SP2-Updates    | slessp2-sysstat                                | 6260    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-sysvinit                               | 6480    | recommended | Needed        
+SLES11-SP2-Updates    | slessp2-tboot                                  | 6174    | feature     | Not Applicable
+SLES11-SP2-Updates    | slessp2-util-linux                             | 6133    | recommended | Installed     
+SLES11-SP2-Updates    | slessp2-wpa_supplicant                         | 5950    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-xen-201206                             | 6400    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-xorg-x11-Xvnc                          | 5867    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-xorg-x11-server-rdp                    | 6111    | security    | Not Applicable
+SLES11-SP2-Updates    | slessp2-yast2-dns-server                       | 6402    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-yast2-http-server                      | 5855    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-yast2-ldap                             | 5983    | recommended | Not Applicable
+SLES11-SP2-Updates    | slessp2-yast2-network                          | 6020    | recommended | Not Applicable
