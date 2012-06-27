@@ -31,7 +31,7 @@ module TestHelper
     end
   end
 
-  def prepare_data(data_file, return_type)
+  def prepare_data(data_file, return_type = 'non-xml')
     out_std  = get_file_content(data_file, OUT_SUFFIX)
     out_err  = get_file_content(data_file, ERR_SUFFIX)
     out_exit = Integer(get_file_content(data_file, EXIT_SUFFIX))
