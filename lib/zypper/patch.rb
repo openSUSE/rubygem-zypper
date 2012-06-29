@@ -1,11 +1,12 @@
-require 'zypper/utils'
+require 'zypper/update'
 
 class Zypper
-  class Patch
+  class Patch < Update
+
     class Status
-      NEEDED         = 'Needed'
-      INSTALLED      = 'Installed'
-      NOT_APPLICABLE = 'Not Applicable'
+      NEEDED         = 'needed'
+      INSTALLED      = 'applied'
+      NOT_APPLICABLE = 'not-needed'
     end
 
     class Category
@@ -15,9 +16,8 @@ class Zypper
       OPTIONAL    = 'optional'
     end
 
-    include ZypperUtils
-
-    FILTER_OPTIONS = [:repository, :name, :version, :category, :status]
+    # FIXME: use Zypper::Update::PARAMS_FOR_TYPES as input
+    FILTER_OPTIONS = [:name, :edition, :category, :status]
 
     # Lists all patches
     #
@@ -27,18 +27,22 @@ class Zypper
     #        Logical AND is always applied for all the options present
     #
     # @example
-    #   all(:status => 'Installed')
-    def find(options = {})
-      additional_options = {:quiet => true}
+    #   find(:status => 'Installed')
+#    def find(options = {})
+#      additional_options = {:quiet => true}
+#
+#      if (run(build_command('patches', options.merge(additional_options))))
+#        apply_filters(convert_patches(last_message), options)
+#      end
+#    end
 
-      if (run(build_command('patches', options.merge(additional_options))))
-        apply_filters(convert_patches(last_message), options)
-      end
+    def find(options = {})
+      apply_filters(super(options.merge(:type => :patch)), options)
     end
 
     # Lists all known patches
     def all(options = {})
-      find
+      find(options)
     end
 
     # All applicable patches
@@ -64,42 +68,15 @@ class Zypper
 
     private
 
-    # Current libzypp doesn't support XML output for patches
-    def convert_patches(patches)
-      out = []
-      table_index = 0
-      patch = {}
-
-      patches.split("\n").each {|line|
-        table_index = table_index + 1
-        # Skip the first two - table header
-        next if table_index < 3
-
-        line.gsub!(/ +\| +/, '|')
-        line.gsub!(/^ +/, '')
-        line.gsub!(/ +$/, '')
-        patch = line.split '|'
-
-        out.push(
-          :repository => patch[0],
-          :name       => patch[1],
-          :version    => patch[2],
-          :category   => patch[3],
-          :status     => patch[4]
-        )
-      }
-
-      out
-    end
-
     # Filters patches according to given parameters
     #
     # @param (Array) patches
-    # @param (Hash)  filters criteria, possible keys are :repository, :name, :version, :category and :status
+    # @param (Hash)  filters criteria, possible keys are :name, :version, :category and :status
+    #                FIXME: more filters from XML
     #
     # @example
-    #   apply_patch_filters(patches, { :status => 'Needed' })
-    #   apply_patch_filters(patches, { :version' => '1887', :repository => 'SLES11-SP1-Update' })
+    #   apply_patch_filters(patches, { :status => 'needed' })
+    #   apply_patch_filters(patches, { :edition => '1887', ... })
     def apply_filters(patches = [], filters = {})
       filters.each {|filter_key, filter_value|
         raise "Unknown filter parameter '#{filter_key}'" unless FILTER_OPTIONS.include? filter_key

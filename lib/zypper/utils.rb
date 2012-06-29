@@ -146,6 +146,11 @@ module ZypperUtils
 
           options[:name] ? '--match-exact ' + escape(options[:name]) : '',
         ]
+      when 'list-updates'
+        ret_options = [
+          !options[:type].nil? ? "--type #{escape(options[:type])}" : '',
+          '--all',
+        ]
     end
 
     ret_options.join(' ')
