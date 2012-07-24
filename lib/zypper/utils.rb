@@ -2,7 +2,7 @@ module ZypperUtils
   require 'rubygems'
   require 'shellwords'
   require 'popen4'
-  require 'xmlsimple'
+  require 'nokogiri'
 
   require 'zypper/config'
 
@@ -169,11 +169,12 @@ module ZypperUtils
 
   def xml_run(command)
     xml = run(command, {:get => XML_COMMANDS_GET})
-    out = XmlSimple.xml_in(xml)
 
-    if !out["message"].nil?
-      errors = out["message"].select{|hash| hash["type"] == "error"}
-      self.last_error = errors.collect{|hash| hash["content"]}.join("\n")
+    begin
+      out = Nokogiri::Slop(xml)
+    rescue Exception => e
+      self.last_error = e.message
+      return nil
     end
 
     out

@@ -15,7 +15,22 @@ class Zypper
     # Lists all known repositories
     def all(options = {})
       out = xml_run build_command('repos', options.merge(:get => XML_COMMANDS_GET))
-      out.fetch('repo-list', []).fetch(0, {}).fetch('repo', [])
+
+      repos = []
+
+      out.xpath('//repo').each do |repo|
+        # The only subnode is URL
+        one_repo = {'url' => repo.url.content}
+
+        # Attributes are handled differently
+        repo.attributes.keys.each do |attr_name|
+          one_repo[attr_name] = repo.attribute(attr_name).content
+        end
+
+        repos.push one_repo
+      end
+
+      repos
     end
 
     # Adds a new repository defined by options
