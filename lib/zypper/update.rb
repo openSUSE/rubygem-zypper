@@ -44,8 +44,7 @@ class Zypper
     def convert_output(parsed_stream, type)
       out = []
 
-      # FIXME: check if exists
-      params = PARAMS_FOR_TYPES[:patch]
+      params = PARAMS_FOR_TYPES.fetch(:patch, DEFALUT_TYPE)
 
       return_array(parsed_stream.fetch('stream', {}).fetch('update_status', {}).fetch('update_list', {}).fetch('update', [])).each do |update|
         one_update = {}
