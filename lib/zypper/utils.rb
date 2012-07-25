@@ -14,13 +14,21 @@ module ZypperUtils
   TAG_MATCH = Regexp.new('.(.*)')
   ATTRIBUTE_STARTS_WITH = '@'[0]
 
+  tag_to_sym = {}
+
   Nori.configure do |config|
     config.convert_tags_to { |tag|
       if (tag[0] == ATTRIBUTE_STARTS_WITH)
         tag.sub! TAG_MATCH, '\1'
       end
 
-      tag.to_sym
+      if (tag_to_sym.has_key?(tag))
+        tag_to_sym[tag]
+      else
+        old_tag = tag.dup
+        tag_to_sym.store(old_tag, tag.to_sym)
+        tag_to_sym[old_tag]
+      end
     }
   end
 
