@@ -11,11 +11,14 @@ module ZypperUtils
   Nori.parser = :nokogiri
   Nori.advanced_typecasting = false
 
+  TAG_MATCH = Regexp.new('.(.*)')
+  ATTRIBUTE_STARTS_WITH = '@'[0]
+
   Nori.configure do |config|
     config.convert_tags_to { |tag|
       # FIXME: caching
-      if /^@/ =~ tag
-        tag.sub! /.(.*)/, '\1'
+      if (tag[0] == ATTRIBUTE_STARTS_WITH)
+        tag.sub! TAG_MATCH, '\1'
       else
         tag
       end
