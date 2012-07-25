@@ -12,7 +12,7 @@ class Zypper
     # Lists all known services
     def all(options = {})
       out = xml_run build_command('services', options.merge(:get => XML_COMMANDS_GET))
-      return_array out.fetch('stream', {}).fetch('service_list', {}).fetch('service', [])
+      return_array out.fetch(:stream, {}).fetch(:service_list, {}).fetch(:service, [])
     end
 
   end

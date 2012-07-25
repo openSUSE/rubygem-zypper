@@ -8,19 +8,10 @@ class Zypper
 
     PARAMS_FOR_TYPES = {
       :patch => [
-        # ['in_hash_string', :out_hash_symbol],
-        ['interactive', :interactive, :boolean],
-        ['status', :status],
-        ['name', :name],
-        ['source', :source],
-        ['edition', :edition],
-        ['pkgmanager', :pkgmanager, :boolean],
-        ['description', :description],
-        ['restart', :restart, :boolean],
-        ['category', :category],
-        ['license', :license],
-        ['summary', :summary],
-        ['arch', :arch],
+        # ['attribute_key', :type_to_convert_to],
+        [:interactive, :boolean],
+        [:pkgmanager, :boolean],
+        [:restart, :boolean],
       ]
     }
 
@@ -46,11 +37,11 @@ class Zypper
 
       params = PARAMS_FOR_TYPES.fetch(:patch, DEFALUT_TYPE)
 
-      return_array(parsed_stream.fetch('stream', {}).fetch('update_status', {}).fetch('update_list', {}).fetch('update', [])).each do |update|
-        one_update = {}
+      return_array(parsed_stream.fetch(:stream, {}).fetch(:update_status, {}).fetch(:update_list, {}).fetch(:update, [])).each do |update|
+        one_update = update
 
         params.each do |param|
-          one_update[param[1]] = convert_entry(update[param[0]], param[2])
+          one_update[param[0]] = convert_entry(update[param[0]], param[1])
         end
 
         out << one_update

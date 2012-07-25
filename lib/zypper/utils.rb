@@ -16,12 +16,11 @@ module ZypperUtils
 
   Nori.configure do |config|
     config.convert_tags_to { |tag|
-      # FIXME: caching
       if (tag[0] == ATTRIBUTE_STARTS_WITH)
         tag.sub! TAG_MATCH, '\1'
-      else
-        tag
       end
+
+      tag.to_sym
     }
   end
 

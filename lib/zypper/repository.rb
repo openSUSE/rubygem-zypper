@@ -15,7 +15,7 @@ class Zypper
     # Lists all known repositories
     def all(options = {})
       out = xml_run build_command('repos', options.merge(:get => XML_COMMANDS_GET))
-      return_array out.fetch('stream', {}).fetch('repo_list', {}).fetch('repo', [])
+      return_array out.fetch(:stream, {}).fetch(:repo_list, {}).fetch(:repo, [])
     end
 
     # Adds a new repository defined by options
