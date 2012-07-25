@@ -17,7 +17,7 @@ class Zypper
     end
 
     # FIXME: use Zypper::Update::PARAMS_FOR_TYPES as input
-    FILTER_OPTIONS = [:name, :edition, :category, :status]
+    FILTER_OPTIONS = [:name, :edition, :arch, :category, :status, :pkgmanager, :restart, :interactive]
 
     # Lists all patches
     #

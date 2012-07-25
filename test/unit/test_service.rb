@@ -22,4 +22,10 @@ class TestService < Test::Unit::TestCase
 
     assert_equal(1, @service.all.size)
   end
+
+  def test_more_services
+    prepare_data('services_2', 'xml')
+
+    assert_equal(2, @service.all.size)
+  end
 end

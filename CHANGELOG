@@ -1,5 +1,6 @@
 * Extended testsuites
 * Project moved to openSUSE/rubygem-zypper at GitHub
+* Using Nori (with Nokogiri) to parse the XML output
 
 0.2.2
 -----

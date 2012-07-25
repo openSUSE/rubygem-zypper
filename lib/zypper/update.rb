@@ -47,7 +47,7 @@ class Zypper
       # FIXME: check if exists
       params = PARAMS_FOR_TYPES[:patch]
 
-      parsed_stream.fetch('update-status', []).fetch(0, {}).fetch('update-list', []).fetch(0, {}).fetch('update', []).each do |update|
+      return_array(parsed_stream.fetch('stream', {}).fetch('update_status', {}).fetch('update_list', {}).fetch('update', [])).each do |update|
         one_update = {}
 
         params.each do |param|

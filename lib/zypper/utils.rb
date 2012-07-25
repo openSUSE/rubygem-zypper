@@ -2,11 +2,25 @@ module ZypperUtils
   require 'rubygems'
   require 'shellwords'
   require 'popen4'
-  require 'nokogiri'
+  require 'nori'
 
   require 'zypper/config'
 
   XML_COMMANDS_GET = 'xml'
+
+  Nori.parser = :nokogiri
+  Nori.advanced_typecasting = false
+
+  Nori.configure do |config|
+    config.convert_tags_to { |tag|
+      # FIXME: caching
+      if /^@/ =~ tag
+        tag.sub! /.(.*)/, '\1'
+      else
+        tag
+      end
+    }
+  end
 
   # Only getters are public
   attr_reader :last_message, :last_error_message, :last_exit_status, :config
@@ -169,15 +183,7 @@ module ZypperUtils
 
   def xml_run(command)
     xml = run(command, {:get => XML_COMMANDS_GET})
-
-    begin
-      out = Nokogiri::Slop(xml)
-    rescue Exception => e
-      self.last_error = e.message
-      return nil
-    end
-
-    out
+    Nori.parse xml
   end
 
   # Runs a command given as argument and returns the full output
@@ -194,6 +200,14 @@ module ZypperUtils
       last_message
     else
       last_exit_status == 0
+    end
+  end
+
+  def return_array ret
+    if ret.kind_of? Array
+      ret
+    else
+      [ret]
     end
   end
 
