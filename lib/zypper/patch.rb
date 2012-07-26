@@ -16,7 +16,8 @@ class Zypper
       OPTIONAL    = 'optional'
     end
 
-    FILTER_OPTIONS = [:name, :edition, :arch, :category, :status, :pkgmanager, :restart, :interactive, :source]
+    FILTER_OPTIONS = [:name, :edition, :arch, :category, :status, :pkgmanager,
+                      :restart, :interactive, :repository_url, :repository_alias]
 
     # Lists all patches
     #
@@ -62,8 +63,8 @@ class Zypper
     # Filters patches according to given parameters
     #
     # @param (Array) patches
-    # @param (Hash)  filters criteria, possible keys are :name, :version, :category and :status
-    #                FIXME: more filters from XML
+    # @param (Hash)  filters criteria, possible keys are :name, :edition, :arch, :category, :status,
+    #                :pkgmanager, :restart, :interactive, :repository_url, :repository_alias
     #
     # @example
     #   apply_patch_filters(patches, { :status => 'needed' })
@@ -72,7 +73,14 @@ class Zypper
       filters.each {|filter_key, filter_value|
         raise "Unknown filter parameter '#{filter_key}'" unless FILTER_OPTIONS.include? filter_key
 
-        patches = patches.select{|patch| patch[filter_key] == filter_value}
+        case filter_key
+          when :repository_url
+            patches = patches.select{|patch| patch[:source][:url] == filter_value}
+          when :repository_alias
+            patches = patches.select{|patch| patch[:source][:alias] == filter_value}
+          else
+            patches = patches.select{|patch| patch[filter_key] == filter_value}
+        end
       }
       patches
     end

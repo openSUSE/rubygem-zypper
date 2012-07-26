@@ -75,19 +75,22 @@ class TestPatch < Test::Unit::TestCase
 
     assert_equal(2, @patch.find(:edition => '3970').size)
 
-    # FIXME: We definitely don't want to define full :source including both :url and :alias
     assert_equal(767, @patch.find(
-      :source => {:url=>'https://nu.novell.com/repo/$RCE/SLES11-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials', :alias=>'nu_novell_com:SLES11-SP1-Updates'}
+      :repository_url => 'https://nu.novell.com/repo/$RCE/SLES11-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials'
     ).size)
 
     assert_equal(8, @patch.find(
-      :source => {:url=>'https://nu.novell.com/repo/$RCE/SLES11-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials', :alias=>'nu_novell_com:SLES11-SP1-Updates'},
+      :repository_url => 'https://nu.novell.com/repo/$RCE/SLES11-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials',
       :name => 'slessp1-apache2-mod_php5'
     ).size)
 
     assert_equal(1, @patch.find(
-      :source => {:url=>'https://nu.novell.com/repo/$RCE/SLES11-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials', :alias=>'nu_novell_com:SLES11-SP1-Updates'},
+      :repository_alias => 'nu_novell_com:SLES11-SP1-Updates',
       :edition => '3970'
+    ).size)
+
+    assert_equal(27, @patch.find(
+      :restart => true
     ).size)
   end
 end
