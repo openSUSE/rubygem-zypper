@@ -92,5 +92,13 @@ class TestPatch < Test::Unit::TestCase
     assert_equal(27, @patch.find(
       :restart => true
     ).size)
+
+    for test_definition in [
+      [8,    {:status => Zypper::Patch::Status::NEEDED}],
+      [187,  {:status => Zypper::Patch::Status::INSTALLED}],
+      [1136, {:status => Zypper::Patch::Status::NOT_APPLICABLE}],
+    ]
+      assert_equal(test_definition[0], @patch.find(test_definition[1]).size, "Testing #{test_definition[1].inspect}")
+    end
   end
 end
