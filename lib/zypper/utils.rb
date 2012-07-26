@@ -20,6 +20,10 @@ module ZypperUtils
       [:gpgcheck, :boolean],
       [:enabled, :boolean],
     ],
+    :service => [
+      [:autorefresh, :boolean],
+      [:enabled, :boolean],
+    ],
   }
 
   Nori.parser = :nokogiri
