@@ -121,8 +121,8 @@ zypper.repositories.all
 
 # returns
 [
-  { "enabled"=>"1", "autorefresh"=>"1", "name"=>"SLES11-SP1-x68_64", "url"=>["http://repo/URI"],
-    "type"=>"rpm-md", "alias"=>"repository_alias", "gpgcheck"=>"1" },
+  { "enabled"=>true, "autorefresh"=>true, "name"=>"SLES11-SP1-x68_64", "url"=>["http://repo/URI"],
+    "type"=>"rpm-md", "alias"=>"repository_alias", "gpgcheck"=>true },
   { ... },
   ...
 ]
