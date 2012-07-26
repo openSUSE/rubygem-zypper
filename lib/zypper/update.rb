@@ -29,7 +29,7 @@ class Zypper
       convert_output(out, options[:type])
       # FIXME: implement filters
     end
- 
+
     private
 
     def convert_output(parsed_stream, type)
@@ -61,11 +61,20 @@ class Zypper
       end
     end
 
-    def Boolean(string)
+    def boolean_nocache(string)
       return false unless string
-      return true if string== true || string =~ (/(true|t|yes|y|1)$/i)
-      return false if string== false || string.nil? || string =~ (/(false|f|no|n|0)$/i)
+      return true if string == true || string =~ (/(true|t|yes|y|1)$/i)
+      return false if string == false || string.nil? || string =~ (/(false|f|no|n|0)$/i)
       raise ArgumentError.new("invalid value for Boolean: '#{string}'")
+    end
+
+    @@boolean_cache = {}
+
+    def Boolean(string)
+      return @@boolean_cache[string] if @@boolean_cache.has_key?(string)
+
+      @@boolean_cache[string] = boolean_nocache(string)
+      @@boolean_cache[string]
     end
 
   end
