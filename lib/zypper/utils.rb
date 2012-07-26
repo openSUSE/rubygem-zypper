@@ -8,6 +8,20 @@ module ZypperUtils
 
   XML_COMMANDS_GET = 'xml'
 
+  PARAMS_FOR_TYPES = {
+    :patch => [
+      # ['attribute_key', :type_to_convert_to],
+      [:interactive, :boolean],
+      [:pkgmanager, :boolean],
+      [:restart, :boolean],
+    ],
+    :repo => [
+      [:autorefresh, :boolean],
+      [:gpgcheck, :boolean],
+      [:enabled, :boolean],
+    ],
+  }
+
   Nori.parser = :nokogiri
   Nori.advanced_typecasting = false
 
@@ -214,6 +228,8 @@ module ZypperUtils
     end
   end
 
+  # Whatever it gets, returns an Array
+  # Sometimes even with the only Array item if not got an Array
   def return_array ret
     if ret.kind_of? Array
       ret
@@ -222,4 +238,48 @@ module ZypperUtils
     end
   end
 
+  def convert_output(parsed_stream, type)
+    out = []
+
+    params = PARAMS_FOR_TYPES.fetch(type, [])
+
+    for item in return_array(parsed_stream)
+      one_item = item
+
+      params.each do |param|
+        one_item[param[0]] = convert_entry(item[param[0]], param[1])
+      end
+
+      out << one_item
+    end
+
+    out
+  end
+
+  def convert_entry(entry, to_type = nil)
+    return entry unless to_type
+
+    case to_type
+      when :boolean
+        Boolean(entry)
+      else
+        entry
+    end
+  end
+
+  def boolean_nocache(string)
+    return false unless string
+    return true if string == true || string =~ (/(true|t|yes|y|1)$/i)
+    return false if string == false || string.nil? || string =~ (/(false|f|no|n|0)$/i)
+    raise ArgumentError.new("invalid value for Boolean: '#{string}'")
+  end
+
+  @@boolean_cache = {}
+
+  def Boolean(string)
+    return @@boolean_cache[string] if @@boolean_cache.has_key?(string)
+
+    @@boolean_cache[string] = boolean_nocache(string)
+    @@boolean_cache[string]
+  end
 end
