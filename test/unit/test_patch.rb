@@ -18,13 +18,13 @@ class TestPatch < Test::Unit::TestCase
   end
 
   def test_all
-    prepare_data('patches-all', 'xml')
+    prepare_data('list-updates-patches', 'xml')
 
     assert_equal(1331, @patch.all.size)
   end
 
   def test_applicable
-    prepare_data('patches-all', 'xml')
+    prepare_data('list-updates-patches', 'xml')
 
     assert_equal(8, @patch.applicable.size)
 
@@ -38,13 +38,13 @@ class TestPatch < Test::Unit::TestCase
   end
 
   def test_applicable?
-    prepare_data('patches-all', 'xml')
+    prepare_data('list-updates-patches', 'xml')
 
     assert @patch.applicable?
   end
 
   def test_installed
-    prepare_data('patches-all', 'xml')
+    prepare_data('list-updates-patches', 'xml')
 
     assert_equal(187, @patch.installed.size)
 
@@ -54,7 +54,7 @@ class TestPatch < Test::Unit::TestCase
   end
 
   def test_find
-    prepare_data('patches-all', 'xml')
+    prepare_data('list-updates-patches', 'xml')
 
     assert_equal(1136, @patch.find(
       :status => Zypper::Patch::Status::NOT_APPLICABLE

@@ -1,12 +1,14 @@
 <?xml version='1.0'?>
 <stream>
+<message type="info">Loading repository data...</message>
+<message type="info">Reading installed packages...</message>
 <update-status version="0.6">
 <update-list>
- <update name="yast2-trans-en_US" edition="2.17.32-0.5.1" arch="noarch" kind="package" >
-  <summary>YaST2 - American English Translations  </summary>
-  <description>YaST2 - Translations for American English.</description>
+ <update name="libzypp" edition="9.12.3-0.5.1" arch="x86_64" kind="package" >
+  <summary>Package, Patch, Pattern, and Product Management  </summary>
+  <description>Package, Patch, Pattern, and Product Management</description>
   <license></license>
-  <source url="https://nu.novell.com/repo/$RCE/SLES11-SP2-Core/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLES11-SP2-Core"/>
+  <source url="https://nu.novell.com/repo/$RCE/SLES11-SP2-Updates/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLES11-SP2-Updates"/>
  </update>
  <update name="sysvinit" edition="2.86-213.1" arch="x86_64" kind="package" >
   <summary>SysV-Style init  </summary>
@@ -177,6 +179,36 @@ drives or on floppies.</description>
   <license></license>
   <source url="https://nu.novell.com/repo/$RCE/SLES11-SP2-Core/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLES11-SP2-Core"/>
  </update>
+ <update name="zypper-log" edition="1.6.166-0.5.1" arch="x86_64" kind="package" >
+  <summary>CLI for accessing the zypper logfile  </summary>
+  <description>This tool helps you to get the right part of the zypper log. It can
+query your zypper runs by date and read rotated logfiles.</description>
+  <license></license>
+  <source url="https://nu.novell.com/repo/$RCE/SLES11-SP2-Updates/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLES11-SP2-Updates"/>
+ </update>
+ <update name="zypper" edition="1.6.166-0.5.1" arch="x86_64" kind="package" >
+  <summary>Command Line Package Management Using Libzypp  </summary>
+  <description>Command Line Package Management Using Libzypp</description>
+  <license></license>
+  <source url="https://nu.novell.com/repo/$RCE/SLES11-SP2-Updates/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLES11-SP2-Updates"/>
+ </update>
+ <update name="postfix" edition="2.5.13-0.19.1" arch="x86_64" kind="package" >
+  <summary>A fast, secure, and flexible mailer  </summary>
+  <description>Postfix aims to be an alternative to the widely-used sendmail program.</description>
+  <license></license>
+  <source url="https://nu.novell.com/repo/$RCE/SLES11-SP2-Updates/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLES11-SP2-Updates"/>
+ </update>
+ <update name="udev" edition="147-0.61.1" arch="x86_64" kind="package" >
+  <summary>A Rule-Based Device Node and Kernel Event Manager  </summary>
+  <description>udev&apos;s main task is to create and remove device nodes in /dev when a
+device is discovered or removed from the system. udevd receives all
+hotplug events via kernel netlink messages and dispatches them
+according to rules in /lib/udev/rules.d/. Matching rules may name a
+device node, create additional symlinks to the node, call tools to
+initialize a device, or load needed kernel modules.</description>
+  <license></license>
+  <source url="https://nu.novell.com/repo/$RCE/SLES11-SP2-Updates/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLES11-SP2-Updates"/>
+ </update>
  <update name="PolicyKit-doc" edition="0.9-14.39.2" arch="x86_64" kind="package" >
   <summary>Documentation for PolicyKit  </summary>
   <description>PolicyKit is a toolkit for defining and handling authorizations. It is
@@ -192,6 +224,137 @@ used for allowing unprivileged processes to speak to privileged
 processes.</description>
   <license></license>
   <source url="https://nu.novell.com/repo/$RCE/SLES11-SP2-Core/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLES11-SP2-Core"/>
+ </update>
+ <update name="libtiff3" edition="3.8.2-141.146.1" arch="x86_64" kind="package" >
+  <summary>The Tiff Library (with JPEG and compression support)  </summary>
+  <description>This package includes the tiff libraries. To link a program with
+libtiff, you will have to add -ljpeg and -lz to include the necessary
+libjpeg and libz in the linking process.</description>
+  <license></license>
+  <source url="https://nu.novell.com/repo/$RCE/SLES11-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLES11-SP1-Updates"/>
+ </update>
+ <update name="openssl" edition="0.9.8j-0.44.1" arch="x86_64" kind="package" >
+  <summary>Secure Sockets and Transport Layer Security  </summary>
+  <description>The OpenSSL Project is a collaborative effort to develop a robust,
+commercial-grade, full-featured, and open source toolkit implementing
+the Secure Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS
+v1) protocols with full-strength cryptography. The project is managed
+by a worldwide community of volunteers that use the Internet to
+communicate, plan, and develop the OpenSSL toolkit and its related
+documentation.
+
+Derivation and License
+
+OpenSSL is based on the excellent SSLeay library developed by Eric A.
+Young and Tim J. Hudson. The OpenSSL toolkit is licensed under an
+Apache-style license, which basically means that you are free to get it
+and to use it for commercial and noncommercial purposes.
+
+Please read the file /usr/share/doc/packages/openssl/README-FIPS.txt
+for information on FIPS-140-2 compliant mode of operation of the
+openssl shared libraries.</description>
+  <license></license>
+  <source url="https://nu.novell.com/repo/$RCE/SLES11-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLES11-SP1-Updates"/>
+ </update>
+ <update name="libopenssl0_9_8" edition="0.9.8j-0.44.1" arch="x86_64" kind="package" >
+  <summary>Secure Sockets and Transport Layer Security  </summary>
+  <description>The OpenSSL Project is a collaborative effort to develop a robust,
+commercial-grade, full-featured, and open source toolkit implementing
+the Secure Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS
+v1) protocols with full-strength cryptography. The project is managed
+by a worldwide community of volunteers that use the Internet to
+communicate, plan, and develop the OpenSSL toolkit and its related
+documentation.
+
+Derivation and License
+
+OpenSSL is based on the excellent SSLeay library developed by Eric A.
+Young and Tim J. Hudson. The OpenSSL toolkit is licensed under an
+Apache-style license, which basically means that you are free to get it
+and to use it for commercial and noncommercial purposes.
+
+Please read the file /usr/share/doc/packages/openssl/README-FIPS.txt
+for information on FIPS-140-2 compliant mode of operation of the
+openssl shared libraries.</description>
+  <license></license>
+  <source url="https://nu.novell.com/repo/$RCE/SLES11-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLES11-SP1-Updates"/>
+ </update>
+ <update name="libglib-2_0-0" edition="2.22.5-0.4.3" arch="x86_64" kind="package" >
+  <summary>A Library with Convenient Functions Written in C  </summary>
+  <description>This library provides convenient functions, such as lists and hashes,
+to a C programmer and is used by Gtk+ and GNOME.</description>
+  <license></license>
+  <source url="https://nu.novell.com/repo/$RCE/SLES11-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLES11-SP1-Updates"/>
+ </update>
+ <update name="libgobject-2_0-0" edition="2.22.5-0.4.3" arch="x86_64" kind="package" >
+  <summary>A Library with Convenient Functions Written in C  </summary>
+  <description>This library provides convenient functions, such as lists and hashes,
+to a C programmer and is used by Gtk+ and GNOME.</description>
+  <license></license>
+  <source url="https://nu.novell.com/repo/$RCE/SLES11-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLES11-SP1-Updates"/>
+ </update>
+ <update name="glib2" edition="2.22.5-0.4.3" arch="x86_64" kind="package" >
+  <summary>A Library with Convenient Functions Written in C  </summary>
+  <description>This library provides convenient functions, such as lists and hashes,
+to a C programmer and is used by Gtk+ and GNOME.</description>
+  <license></license>
+  <source url="https://nu.novell.com/repo/$RCE/SLES11-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLES11-SP1-Updates"/>
+ </update>
+ <update name="glib2-lang" edition="2.22.5-0.4.3" arch="x86_64" kind="package" >
+  <summary>Languages for package glib2  </summary>
+  <description>Provides translations to the package glib2</description>
+  <license></license>
+  <source url="https://nu.novell.com/repo/$RCE/SLES11-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLES11-SP1-Updates"/>
+ </update>
+ <update name="libgthread-2_0-0" edition="2.22.5-0.4.3" arch="x86_64" kind="package" >
+  <summary>A Library with Convenient Functions Written in C  </summary>
+  <description>This library provides convenient functions, such as lists and hashes,
+to a C programmer and is used by Gtk+ and GNOME.</description>
+  <license></license>
+  <source url="https://nu.novell.com/repo/$RCE/SLES11-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLES11-SP1-Updates"/>
+ </update>
+ <update name="libaugeas0" edition="0.8.1-7.18.1" arch="x86_64" kind="package" >
+  <summary>A library for changing configuration files  </summary>
+  <description>A library for programmatically editing configuration files. Augeas
+parses configuration files into a tree structure, which it exposes
+through its public API. Changes made through the API are written back
+to the initially read files.
+
+The transformation works very hard to preserve comments and formatting
+details. It is controlled by ``lens&apos;&apos; definitions that describe the
+file format and the transformation into a tree.</description>
+  <license></license>
+  <source url="https://nu.novell.com/repo/$RCE/SLES11-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLES11-SP1-Updates"/>
+ </update>
+ <update name="openslp" edition="1.2.0-172.22.1" arch="x86_64" kind="package" >
+  <summary>An OpenSLP Implementation of Service Location Protocol V2  </summary>
+  <description>Service Location Protocol is an IETF standards track protocol that
+provides a framework that allows networking applications to discover
+the existence, location, and configuration of networked services in
+enterprise networks.
+
+OpenSLP is an open source implementation of the SLPv2 protocol as
+defined by RFC 2608 and RFC 2614.  This package includes the slptool
+and runtime libraries.</description>
+  <license></license>
+  <source url="https://nu.novell.com/repo/$RCE/SLES11-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLES11-SP1-Updates"/>
+ </update>
+ <update name="yast2-trans-en_US" edition="2.17.32-0.5.1" arch="noarch" kind="package" >
+  <summary>YaST2 - American English Translations  </summary>
+  <description>YaST2 - Translations for American English.</description>
+  <license></license>
+  <source url="https://nu.novell.com/repo/$RCE/SLES11-SP2-Core/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLES11-SP2-Core"/>
+ </update>
+ <update name="libudev0" edition="147-0.61.1" arch="x86_64" kind="package" >
+  <summary>A Rule-Based Device Node and Kernel Event Manager  </summary>
+  <description>udev&apos;s main task is to create and remove device nodes in /dev when a
+device is discovered or removed from the system. udevd receives all
+hotplug events via kernel netlink messages and dispatches them
+according to rules in /lib/udev/rules.d/. Matching rules may name a
+device node, create additional symlinks to the node, call tools to
+initialize a device, or load needed kernel modules.</description>
+  <license></license>
+  <source url="https://nu.novell.com/repo/$RCE/SLE11-SDK-SP2-Updates/sle-11-x86_64?credentials=NCCcredentials" alias="nu_novell_com:SLE11-SDK-SP2-Updates"/>
  </update>
  <update name="gfxboot-branding-SLES" edition="4.1.32-0.7.11" arch="x86_64" kind="package" >
   <summary>gfxboot SLES theme  </summary>
