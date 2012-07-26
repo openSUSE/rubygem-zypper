@@ -72,7 +72,6 @@ class Zypper
     end
 
     # SLE11 zypper doesn't support XML output for packages
-    # FIXME: merge with 'convert_patches'
     def convert_packages(packages)
       out = []
       table_index = 0
