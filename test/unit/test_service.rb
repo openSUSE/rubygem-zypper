@@ -2,12 +2,14 @@ $: << File.join(File.dirname(__FILE__), '..')
 
 require 'test/unit'
 require 'test_helper'
+require 'repository_helper'
 require 'zypper'
 
 puts "Testing Zypper::Service methods..."
 
 class TestService < Test::Unit::TestCase
   include TestHelper
+  include RepositoryHelper
 
   SERVICE_NAME    = 'nu_novell_com_2'
   SERVICE_ALIAS   = 'nu_novell_com_2'
@@ -47,5 +49,7 @@ class TestService < Test::Unit::TestCase
     assert_equal(SERVICE_TYPE,    services[0][:type],        "Service type in #{services.inspect} does not match #{SERVICE_TYPE}")
     assert_equal(SERVICE_ENABLED, services[0][:enabled],     "Service #{services.inspect} should be enabled")
     assert_equal(SERVICE_AUTOREF, services[0][:autorefresh], "Service #{services.inspect} should have autorefresh off")
+
+    test_webyast services[0][:repo]
   end
 end
