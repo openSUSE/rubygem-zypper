@@ -16,7 +16,7 @@ class Zypper
       OPTIONAL    = 'optional'
     end
 
-    FILTER_OPTIONS = [:name, :edition, :arch, :category, :status, :pkgmanager, :restart, :interactive]
+    FILTER_OPTIONS = [:name, :edition, :arch, :category, :status, :pkgmanager, :restart, :interactive, :source]
 
     # Lists all patches
     #

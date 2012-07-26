@@ -73,21 +73,21 @@ class TestPatch < Test::Unit::TestCase
       :category => Zypper::Patch::Category::OPTIONAL
     ).size)
 
-    # FIXME: use parsed :source
-    #assert_equal(765, @patch.find(
-    #  :repository => 'SLES11-SP1-Updates'
-    #).size)
+    assert_equal(2, @patch.find(:edition => '3970').size)
+
+    # FIXME: We definitely don't want to define full :source including both :url and :alias
+    assert_equal(767, @patch.find(
+      :source => {:url=>'https://nu.novell.com/repo/$RCE/SLES11-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials', :alias=>'nu_novell_com:SLES11-SP1-Updates'}
+    ).size)
 
     assert_equal(8, @patch.find(
-      #:repository => 'SLES11-SP1-Updates',
+      :source => {:url=>'https://nu.novell.com/repo/$RCE/SLES11-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials', :alias=>'nu_novell_com:SLES11-SP1-Updates'},
       :name => 'slessp1-apache2-mod_php5'
     ).size)
 
-    assert_equal(2, @patch.find(:edition => '3970').size)
-
-    #assert_equal(1, @patch.find(
-    #  :repository => 'SLES11-SP1-Updates',
-    #  :edition => '3970'
-    #).size)
+    assert_equal(1, @patch.find(
+      :source => {:url=>'https://nu.novell.com/repo/$RCE/SLES11-SP1-Updates/sle-11-x86_64?credentials=NCCcredentials', :alias=>'nu_novell_com:SLES11-SP1-Updates'},
+      :edition => '3970'
+    ).size)
   end
 end
