@@ -17,15 +17,16 @@ module ZypperUtils
 
   Nori.configure do |config|
     config.convert_tags_to { |tag|
-      if (tag[0] == ATTRIBUTE_STARTS_WITH)
-        # cut the '@' from the beginning of the string
-        tag.slice!(0)
-      end
-
       if (tag_to_sym.has_key?(tag))
         tag_to_sym[tag]
       else
         old_tag = tag.dup
+
+        if (tag[0] == ATTRIBUTE_STARTS_WITH)
+          # cut the '@' from the beginning of the string
+          tag.slice!(0)
+        end
+
         tag_to_sym.store(old_tag, tag.to_sym)
         tag_to_sym[old_tag]
       end
