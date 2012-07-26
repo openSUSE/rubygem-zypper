@@ -23,6 +23,8 @@ module ZypperUtils
     :service => [
       [:autorefresh, :boolean],
       [:enabled, :boolean],
+      # Treat :repo entry as :repo subitem
+      [:repo, :subitem],
     ],
   }
 
@@ -251,7 +253,7 @@ module ZypperUtils
       one_item = item
 
       params.each do |param|
-        one_item[param[0]] = convert_entry(item[param[0]], param[1])
+        one_item[param[0]] = convert_entry(item[param[0]], param[0], param[1])
       end
 
       out << one_item
@@ -260,12 +262,14 @@ module ZypperUtils
     out
   end
 
-  def convert_entry(entry, to_type = nil)
+  def convert_entry(entry, key, to_type = nil)
     return entry unless to_type
 
     case to_type
       when :boolean
         Boolean(entry)
+      when :subitem
+        convert_output(entry, key)
       else
         entry
     end
