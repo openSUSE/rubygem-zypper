@@ -16,7 +16,6 @@ class Zypper
       OPTIONAL    = 'optional'
     end
 
-    # FIXME: use Zypper::Update::PARAMS_FOR_TYPES as input
     FILTER_OPTIONS = [:name, :edition, :arch, :category, :status, :pkgmanager, :restart, :interactive]
 
     # Lists all patches
@@ -27,15 +26,7 @@ class Zypper
     #        Logical AND is always applied for all the options present
     #
     # @example
-    #   find(:status => 'Installed')
-#    def find(options = {})
-#      additional_options = {:quiet => true}
-#
-#      if (run(build_command('patches', options.merge(additional_options))))
-#        apply_filters(convert_patches(last_message), options)
-#      end
-#    end
-
+    #   find(:status => Zypper::Patch::Status::INSTALLED)
     def find(options = {})
       apply_filters(super(options.merge(:type => :patch)), options)
     end
