@@ -1,8 +1,7 @@
-require 'zypper/utils'
+require 'zypper/update'
 
 class Zypper
-  class Package
-    include ZypperUtils
+  class Package < Update
 
     class Status
       INSTALLED = :installed
@@ -61,6 +60,11 @@ class Zypper
     # Returns all available packages (that are not installed yet)
     def available(options = {})
       find(options.merge(:status => Status::AVAILABLE))
+    end
+
+    # Finds all package updates
+    def updates(options = {})
+      find_updates(options.merge(:type => :package))
     end
 
     private

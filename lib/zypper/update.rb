@@ -9,7 +9,7 @@ class Zypper
     DEFALUT_TYPE = :patch
 
     # Lists all known updates
-    def find(options = {})
+    def find_updates(options = {})
       options[:type] = DEFALUT_TYPE if options[:type].nil?
       # FIXME: check allowed types
 

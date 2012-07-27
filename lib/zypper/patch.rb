@@ -29,7 +29,7 @@ class Zypper
     # @example
     #   find(:status => Zypper::Patch::Status::INSTALLED)
     def find(options = {})
-      apply_filters(super(options.merge(:type => :patch)), options)
+      apply_filters(find_updates(options.merge(:type => :patch)), options)
     end
 
     # Lists all known patches
