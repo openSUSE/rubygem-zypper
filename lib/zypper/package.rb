@@ -71,27 +71,29 @@ class Zypper
       raise "Unknown package status '#{status}'"
     end
 
-    # SLE11 zypper doesn't support XML output for packages
+    # SLE11 zypper doesn't support XML output for packages yet
     def convert_packages(packages)
       out = []
-      table_index = 0
+      table_header_lines = 3
       package = {}
 
-      packages.split("\n").each {|line|
-        table_index = table_index + 1
-        # Skip the first two - table header
-        next if table_index < 4
+      for line in packages.split("\n")
+        # Skip the table header
+        if table_header_lines > 0
+          table_header_lines = table_header_lines - 1
+          next
+        end
 
         line.strip!
         package = line.split(%r{ *\| *})
 
-        out.push(
+        out << {
           :status  => status(package[0]),
           :name    => package[1],
           :summary => package[2],
           :type    => package[3]
-        )
-      }
+        }
+      end
 
       out
     end
