@@ -144,55 +144,50 @@ module ZypperUtils
   # Returns string of command options depending on a given zypper command
   # combined with provided options
   def zypper_command_options(zypper_action, options = {})
-    ret_options = []
-
-    # Additional command-line options for a command
-    if options[:cmd_options]
-      ret_options = options[:cmd_options]
-    end
+    ret_options = options.fetch(:cmd_options, [])
 
     case zypper_action
       when 'refresh'
-        ret_options = [
+        ret_options = ret_options | [
           options[:force] ? '--force' : '',
           options[:force_build] ? '--force-build' : '',
         ]
       when 'addrepo'
-        ret_options = [
+        ret_options = ret_options | [
           config.refresh_repo? ? '--refresh':'',
           options[:url],
           options[:alias],
         ]
       when 'removerepo'
-        ret_options = [
+        ret_options = ret_options | [
           options[:alias],
         ]
       when 'install'
-        ret_options = [
+        ret_options = ret_options | [
           config.auto_agree_with_licenses? ? '--auto-agree-with-licenses' : '',
           escape_items(options[:packages]),
         ]
       when 'remove'
-        ret_options = [
+        ret_options = ret_options | [
           escape_items(options[:packages]),
         ]
       when 'version'
-        ret_options = [
+        ret_options = ret_options | [
           '--version',
         ]
       when 'info'
-        ret_options = [
+        ret_options = ret_options | [
           escape(options[:package]),
         ]
       when 'search'
-        ret_options = [
+        ret_options = ret_options | [
           options[:status] == Zypper::Package::Status::INSTALLED ? '--installed-only' : '',
           options[:status] == Zypper::Package::Status::AVAILABLE ? '--uninstalled-only' : '',
 
           options[:name] ? '--match-exact ' + escape(options[:name]) : '',
         ]
       when 'list-updates'
-        ret_options = [
+        ret_options = ret_options | [
           !options[:type].nil? ? "--type #{escape(options[:type])}" : '',
           '--all',
         ]
