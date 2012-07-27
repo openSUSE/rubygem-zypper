@@ -80,12 +80,10 @@ class Zypper
       packages.split("\n").each {|line|
         table_index = table_index + 1
         # Skip the first two - table header
-        next if table_index < 3
+        next if table_index < 4
 
-        line.gsub!(/ +\| +/, '|')
-        line.gsub!(/^ +/, '')
-        line.gsub!(/ +$/, '')
-        package = line.split '|'
+        line.strip!
+        package = line.split(%r{ *\| *})
 
         out.push(
           :status  => status(package[0]),
