@@ -1,0 +1,335 @@
+
+S | Name                              | Summary                                                                                                                     | Type   
+--+-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------+--------
+i | ConsoleKit                        | System daemon for tracking users, sessions and seats                                                                        | package
+i | FastCGI                           | A Scalable, Open Extension to CGI                                                                                           | package
+i | Mesa                              | System for rendering interactive 3-D graphics                                                                               | package
+i | PackageKit                        | Simple software installation management software                                                                            | package
+i | PackageKit-branding-openSUSE      | Simple software installation management software -- openSUSE default configuration                                          | package
+i | PolicyKit                         | Authorization Toolkit                                                                                                       | package
+i | aaa_base                          | SUSE Linux Base Package                                                                                                     | package
+i | bash                              | The GNU Bourne-Again Shell                                                                                                  | package
+i | bind-libs                         | Shared libraries of BIND                                                                                                    | package
+i | bind-utils                        | Utilities to query and test DNS                                                                                             | package
+i | bootsplash                        | Graphical System Boot Utilities                                                                                             | package
+i | branding-openSUSE                 | SuSE Brand File                                                                                                             | package
+i | bridge-utils                      | Utilities for Configuring the Linux Ethernet Bridge                                                                         | package
+i | bzip2                             | A Program for Compressing Files                                                                                             | package
+i | coreutils                         | GNU Core Utilities                                                                                                          | package
+i | cpio                              | A Backup and Archiving Utility                                                                                              | package
+i | cracklib                          | Library to crack passwords using dictionaries                                                                               | package
+i | cracklib-dict-full                | A Password-Checking Library                                                                                                 | package
+i | cron                              | Auxiliary package                                                                                                           | package
+i | cronie                            | Cron Daemon                                                                                                                 | package
+i | curl                              | A Tool for Transferring Data from URLs                                                                                      | package
+i | cyrus-sasl                        | Implementation of Cyrus SASL API                                                                                            | package
+i | dbus-1                            | D-Bus Message Bus System                                                                                                    | package
+i | dbus-1-glib                       | GLib-based library for using D-Bus                                                                                          | package
+i | device-mapper                     | Device Mapper Tools                                                                                                         | package
+i | dhcpcd                            | A DHCP Client Daemon                                                                                                        | package
+i | diffutils                         | GNU diff Utilities                                                                                                          | package
+i | dirmngr                           | A Client for Managing and Downloading CRLs                                                                                  | package
+i | e2fsprogs                         | Utilities for the Second Extended File System                                                                               | package
+i | elfutils                          | Higher-level library to access ELF                                                                                          | package
+i | file                              | A Tool to Determine File Types                                                                                              | package
+i | filesystem                        | Basic Directory Layout                                                                                                      | package
+i | fillup                            | Tool for Merging Config Files                                                                                               | package
+i | findutils                         | The GNU versions of find utilities (find and xargs)                                                                         | package
+i | fontconfig                        | Library for Font Configuration                                                                                              | package
+i | gawk                              | GNU awk                                                                                                                     | package
+i | gd                                | A Drawing Library for Programs That Use PNG and JPEG Output                                                                 | package
+i | gdbm                              | GNU Database Routines                                                                                                       | package
+i | gio-branding-openSUSE             | openSUSE definitions of default settings and applications                                                                   | package
+i | git                               | Fast, scalable, distributed revision control system                                                                         | package
+i | git-core                          | Core git tools                                                                                                              | package
+i | gitk                              | Git revision tree visualiser                                                                                                | package
+i | glib2-tools                       | General-Purpose Utility Library -- Tools                                                                                    | package
+i | glibc                             | Standard Shared Libraries (from the GNU C Library)                                                                          | package
+i | glibc-32bit                       | Standard Shared Libraries (from the GNU C Library)                                                                          | package
+i | glibc-locale                      | Locale Data for Localized Programs                                                                                          | package
+i | gpg2                              | GnuPG 2                                                                                                                     | package
+i | gpm                               | Console Mouse Support                                                                                                       | package
+i | grep                              | Print lines matching a pattern                                                                                              | package
+i | grub                              | Grand Unified Boot Loader                                                                                                   | package
+i | gzip                              | GNU Zip Compression Utilities                                                                                               | package
+i | hicolor-icon-theme                | Fallback Icon Theme                                                                                                         | package
+i | hwinfo                            | Hardware Library                                                                                                            | package
+i | info                              | A Stand-Alone Terminal-Based Info Browser                                                                                   | package
+i | insserv                           | A Program to Arrange Initialization Scripts                                                                                 | package
+i | iproute2                          | Linux network configuration utilities                                                                                       | package
+i | iputils                           | IPv4 and IPv6 Networking Utilities                                                                                          | package
+i | kbd                               | Keyboard and Font Utilities                                                                                                 | package
+i | kernel-default                    | The Standard Kernel                                                                                                         | package
+i | krb5                              | MIT Kerberos5 Implementation--Libraries                                                                                     | package
+i | lcms                              | Utilities for the Little CMS Engine                                                                                         | package
+i | less                              | Text File Browser and Pager Similar to more                                                                                 | package
+i | libGeoIP1                         | Shared libraries of the GeoIP C API                                                                                         | package
+i | libXi6                            | X.Org Xi library                                                                                                            | package
+i | libacl1                           | A dynamic library for accessing POSIX Access Control Lists                                                                  | package
+i | libadns1                          | Advanced DNS resolver client library                                                                                        | package
+i | libarchive2                       | Library to work with several different streaming archive formats                                                            | package
+i | libasm1                           | A collection of utilities and DSOs to handle compiled objects                                                               | package
+i | libasound2                        | Advanced Linux Sound Architecture Library                                                                                   | package
+i | libassuan0                        | IPC library used by GnuPG version 2                                                                                         | package
+i | libattr1                          | A dynamic library for filesystem extended attribute support                                                                 | package
+i | libaudit1                         | Dynamic library for libaudit                                                                                                | package
+i | libaugeas0                        | A library for changing configuration files                                                                                  | package
+i | libblkid1                         | Filesystem detection library                                                                                                | package
+i | libblocxx6                        | BloCXX--C++ Framework for Application Development                                                                           | package
+i | libbz2-1                          | The bzip2 runtime library                                                                                                   | package
+i | libcap-ng0                        | An alternate POSIX capabilities library                                                                                     | package
+i | libcap2                           | Library for Capabilities (linux-privs) Support                                                                              | package
+i | libcares2                         | Library for asynchronous name resolves                                                                                      | package
+i | libcom_err2                       | E2fsprogs error reporting library                                                                                           | package
+i | libcrack2                         | Library to crack passwords using dictionaries                                                                               | package
+i | libcryptsetup1                    | Set Up dm-crypt Based Encrypted Block Devices                                                                               | package
+i | libcurl4                          | cURL shared library version 4                                                                                               | package
+i | libdb-4_8                         | Berkeley DB Database Library Version 4.8                                                                                    | package
+i | libdnet1                          | Library for Simple, Portable Interface to Low Level Networking Routines                                                     | package
+i | libdrm                            | Userspace Interface for Kernel DRM Services                                                                                 | package
+i | libdw1                            | Library to access DWARF debugging information                                                                               | package
+i | libedit0                          | Command Line Editing and History Library                                                                                    | package
+i | libelf1                           | Library to read and write ELF files                                                                                         | package
+i | libev4                            | A full-featured and high-performance event loop library                                                                     | package
+i | libevtlog0                        | Syslog-ng event logger library runtime                                                                                      | package
+i | libexpat1                         | XML Parser Toolkit                                                                                                          | package
+i | libext2fs2                        | Ext2fs library                                                                                                              | package
+i | libffi46                          | Foreign Function Interface library                                                                                          | package
+i | libfreetype6                      | A TrueType Font Library                                                                                                     | package
+i | libgcc46                          | C compiler runtime library                                                                                                  | package
+i | libgcrypt11                       | The GNU Crypto Library                                                                                                      | package
+i | libgio-2_0-0                      | General-Purpose Utility Library -- Library for VFS                                                                          | package
+i | libglib-2_0-0                     | General-Purpose Utility Library                                                                                             | package
+i | libgmodule-2_0-0                  | General-Purpose Utility Library -- Library for Modules                                                                      | package
+i | libgobject-2_0-0                  | General-Purpose Utility Library -- Object-Oriented Framework for C                                                          | package
+i | libgpg-error0                     | Library That Defines Common Error Values for All GnuPG Components                                                           | package
+i | libgssglue1                       | Generic GSSAPI Library                                                                                                      | package
+i | libgthread-2_0-0                  | General-Purpose Utility Library -- Library for Threads                                                                      | package
+i | libgudev-1_0-0                    | GObject library, to access udev device information                                                                          | package
+i | libicu                            | International Components for Unicode (development files)                                                                    | package
+i | libidn                            | Support for Internationalized Domain Names (IDN)                                                                            | package
+i | libjpeg62                         | The MMX/SSE accelerated JPEG compression/decompression library                                                              | package
+i | libkeyutils1                      | Key utilities library                                                                                                       | package
+i | libksba                           | A X.509 Library                                                                                                             | package
+i | liblcms1                          | Libraries for the Little CMS Engine                                                                                         | package
+i | libldap-2_4-2                     | OpenLDAP Client Libraries                                                                                                   | package
+i | liblua5_1                         | Small Embeddable Language with Simple Procedural Syntax                                                                     | package
+i | liblzma5                          | LZMA library                                                                                                                | package
+i | libmng                            | Library for Support of MNG and JNG Formats                                                                                  | package
+i | libmodman1                        | A Module Management Library                                                                                                 | package
+i | libmount1                         | Device mount library                                                                                                        | package
+i | libncurses5                       | The New curses Libraries                                                                                                    | package
+i | libncurses5-32bit                 | The New curses Libraries                                                                                                    | package
+i | libncurses6                       | The New curses Libraries                                                                                                    | package
+i | libnet1                           | A C Library for Portable Packet Creation                                                                                    | package
+i | libnscd                           | Library to Allow Applications to Communicate with nscd                                                                      | package
+i | libopenssl1_0_0                   | Secure Sockets and Transport Layer Security                                                                                 | package
+i | libpackagekit-glib2-14            | Simple software installation management software                                                                            | package
+i | libpciaccess0                     | pciaccess library                                                                                                           | package
+i | libpcre0                          | A library for Perl-compatible regular expressions                                                                           | package
+i | libpng14-14                       | Library for the Portable Network Graphics Format (PNG)                                                                      | package
+i | libpolkit0                        | Libraries required for polkit                                                                                               | package
+i | libpopt0                          | A C library for parsing command line parameters                                                                             | package
+i | libproxy1                         | Libproxy provides consistent proxy configuration to applications                                                            | package
+i | libpth20                          | GNU Portable Threads                                                                                                        | package
+i | libpython2_7-1_0                  | Python Interpreter shared library                                                                                           | package
+i | libqt4                            | C++ Program Library, Core Components                                                                                        | package
+i | libqt4-qt3support                 | C++ Program Library, Core Components                                                                                        | package
+i | libqt4-sql                        | Qt 4 SQL related libraries                                                                                                  | package
+i | libqt4-x11                        | Qt 4 GUI related libraries                                                                                                  | package
+i | libreadline6                      | The Readline Library                                                                                                        | package
+i | libselinux1                       | SELinux library and simple utilities                                                                                        | package
+i | libsemanage1                      | SELinux binary policy manipulation library                                                                                  | package
+i | libsepol1                         | SELinux binary policy manipulation library                                                                                  | package
+i | libslang2                         | Programming Library and Embeddable Extension Language                                                                       | package
+i | libsolv-tools                     | A new approach to package dependency solving                                                                                | package
+i | libsqlite3-0                      | Shared libraries for the Embeddable SQL Database Engine                                                                     | package
+i | libssh2-1                         | A library implementing the SSH2 protocol                                                                                    | package
+i | libstdc++46                       | The standard C++ shared library                                                                                             | package
+i | libtiff3                          | The Tiff Library (with JPEG and compression support)                                                                        | package
+i | libtirpc1                         | Transport Independent RPC Library                                                                                           | package
+i | libudev0                          | Dynamic library to access udev device information                                                                           | package
+i | libusb-0_1-4                      | libusb-1.0 Compatibility Library for libusb-0.1                                                                             | package
+i | libusb-1_0-0                      | USB Library                                                                                                                 | package
+i | libustr-1_0-1                     | String library, very low memory overhead, simple to import                                                                  | package
+i | libuuid1                          | Library to generate UUIDs                                                                                                   | package
+i | libvmtools0                       | Open Virtual Machine Tools - shared library                                                                                 | package
+i | libx86emu1                        | A small x86 emulation library.                                                                                              | package
+i | libxcrypt                         | Crypt Library for DES, MD5, Blowfish and others                                                                             | package
+i | libxml2                           | A Library to Manipulate XML Files                                                                                           | package
+i | libxslt1                          | XSL Transformation Library                                                                                                  | package
+i | libxtables7                       | Library for functions shared between iptables                                                                               | package
+i | libzio                            | A Library for Accessing Compressed Text Files                                                                               | package
+i | libzypp                           | Package, Patch, Pattern, and Product Management                                                                             | package
+i | login                             | Login Program                                                                                                               | package
+i | logrotate                         | Rotate, compress, remove, and mail system log files                                                                         | package
+i | make                              | GNU make                                                                                                                    | package
+i | makedev                           | Script for Creating Device Files in /dev                                                                                    | package
+i | mc                                | Midnight Commander                                                                                                          | package
+i | mingetty                          | Minimal Getty for Virtual Consoles Only                                                                                     | package
+i | mkinitrd                          | Creates an Initial RAM Disk Image for Preloading Modules                                                                    | package
+i | module-init-tools                 | Utilities to Load Modules into the Kernel                                                                                   | package
+i | ncurses-utils                     | Tools using the new curses libraries                                                                                        | package
+i | net-tools                         | Important Programs for Networking                                                                                           | package
+i | netcfg                            | Network Configuration Files in /etc                                                                                         | package
+i | nginx-1.0                         | A HTTP server and IMAP/POP3 proxy server                                                                                    | package
+i | open-vm-tools                     | Open Virtual Machine Tools                                                                                                  | package
+i | openSUSE-build-key                | The public gpg key for rpm package signature verification                                                                   | package
+i | openSUSE-release                  | openSUSE 12.1                                                                                                               | package
+i | openSUSE-release-ftp              | openSUSE 12.1                                                                                                               | package
+i | openslp                           | An OpenSLP Implementation of Service Location Protocol V2                                                                   | package
+i | openssh                           | Secure Shell Client and Server (Remote Login Program)                                                                       | package
+i | openssl                           | Secure Sockets and Transport Layer Security                                                                                 | package
+i | pam                               | A Security Tool that Provides Authentication for Applications                                                               | package
+i | pam-config                        | Modify common PAM configuration files                                                                                       | package
+i | pam-modules                       | Additional PAM Modules                                                                                                      | package
+i | perl                              | The Perl interpreter                                                                                                        | package
+i | perl-Bootloader                   | Library for Configuring Boot Loaders                                                                                        | package
+i | perl-Config-Crontab               | Read/Write Vixie compatible crontab files                                                                                   | package
+i | perl-Error                        | Error/exception handling in an OO-ish way                                                                                   | package
+i | perl-URI                          | Uniform Resource Identifiers (absolute and relative)                                                                        | package
+i | perl-WWW-Curl                     | Perl extension interface for libcurl                                                                                        | package
+i | perl-XML-Parser                   | A perl module for parsing XML documents                                                                                     | package
+i | perl-XML-Simple                   | Easy API to read/write XML (Perl module)                                                                                    | package
+i | perl-XML-Writer                   | Perl extension for writing XML documents                                                                                    | package
+i | perl-base                         | The Perl interpreter                                                                                                        | package
+i | perl-gettext                      | Message handling functions                                                                                                  | package
+i | permissions                       | SUSE Linux Default Permissions                                                                                              | package
+i | pinentry                          | Collection of Simple PIN or Passphrase Entry Dialogs                                                                        | package
+i | pkg-config                        | A library management system                                                                                                 | package
+i | polkit                            | PolicyKit Authorization Framework                                                                                           | package
+i | polkit-default-privs              | SUSE PolicyKit default permissions                                                                                          | package
+i | procps                            | ps utilities for /proc                                                                                                      | package
+i | psmisc                            | Utilities for managing processes on your system                                                                             | package
+i | pwdutils                          | Utilities to Manage User and Group Accounts                                                                                 | package
+i | python                            | Python Interpreter                                                                                                          | package
+i | python-base                       | Python Interpreter base package                                                                                             | package
+i | rpcbind                           | Transport independent RPC portmapper                                                                                        | package
+i | rpm                               | The RPM Package Manager                                                                                                     | package
+i | rsync                             | Versatile tool for fast incremental file transfer                                                                           | package
+i | ruby                              | An Interpreted Object-Oriented Scripting Language                                                                           | package
+i | ruby-devel                        | Development files to link against Ruby                                                                                      | package
+i | rubygem-POpen4                    | Open4 cross-platform                                                                                                        | package
+i | rubygem-Platform                  | Platform is a library which figures out what platform Ruby is running on.                                                   | package
+i | rubygem-abstract_method           | Tiny library enabling you to define abstract methods in Ruby classes and modules                                            | package
+i | rubygem-actionmailer-2_3          | Service layer for easy email delivery and testing                                                                           | package
+i | rubygem-actionpack-2_3            | Web-flow and rendering framework putting the VC in MVC                                                                      | package
+i | rubygem-activerecord              | Implements the ActiveRecord pattern (Fowler, PoEAA) for ORM                                                                 | package
+i | rubygem-activerecord-2_3          | Implements the ActiveRecord pattern for ORM                                                                                 | package
+i | rubygem-activeresource-2_3        | Think Active Record for web resources                                                                                       | package
+i | rubygem-activesupport-2_3         | Support and utility classes used by the Rails framework                                                                     | package
+i | rubygem-builder-3_0               | Builders for MarkUp                                                                                                         | package
+i | rubygem-cheetah                   | Your swiss army knife for executing external commands in Ruby safely and conveniently                                       | package
+i | rubygem-cucumber                  | cucumber-1.0.2                                                                                                              | package
+i | rubygem-cucumber-doc              | RDoc documentation for cucumber                                                                                             | package
+i | rubygem-cucumber-testsuite        | Test suite for cucumber                                                                                                     | package
+i | rubygem-daemon_controller         | A library for implementing daemon management capabilities                                                                   | package
+i | rubygem-diff-lcs                  | A port of Algorithm::Diff to Ruby                                                                                           | package
+i | rubygem-fastthread                | Optimized replacement for thread.rb primitives                                                                              | package
+i | rubygem-gettext                   | Ruby-GetText-Package is a libary and tools to localize messages                                                             | package
+i | rubygem-gettext_activerecord      | Localization support for ActiveRecord by Ruby-GetText-Package                                                               | package
+i | rubygem-gettext_rails             | Localization support for Ruby on Rails(>=2.3) by Ruby-GetText-Package                                                       | package
+i | rubygem-gherkin                   | A fast lexer/parser based on the Ragel State Machine Compiler                                                               | package
+i | rubygem-http_accept_language      | Parse the HTTP Accept Language Header                                                                                       | package
+i | rubygem-inifile                   | INI file reader and writer                                                                                                  | package
+i | rubygem-json                      | JSON Implementation for Ruby                                                                                                | package
+i | rubygem-locale                    | Ruby-Locale is the pure ruby library which provides basic APIs for localization                                             | package
+i | rubygem-locale_rails              | Ruby-Locale for Ruby on Rails is the pure ruby library which provides basic functions for localization based on Ruby-Locale | package
+i | rubygem-metaclass                 | Adds a metaclass method to all Ruby objects                                                                                 | package
+i | rubygem-mocha                     | A library for mocking and stubbing using a syntax like that of JMock                                                        | package
+i | rubygem-nokogiri                  | Nokogiri (?) is an HTML, XML, SAX, and Reader parser                                                                        | package
+i | rubygem-nori                      | XML to Hash translator                                                                                                      | package
+i | rubygem-open4                     | Open4::popen4 - enhanced subprocess management library                                                                      | package
+i | rubygem-passenger                 | Easy and robust Ruby web application deployment                                                                             | package
+i | rubygem-passenger-nginx           | Passenger Nginx module for Ruby on Rails support                                                                            | package
+i | rubygem-polkit                    | PolicyKit bindings for ruby                                                                                                 | package
+i | rubygem-rack-1_1                  | A modular Ruby webserver interface                                                                                          | package
+i | rubygem-rails-2_3                 | Web-application framework with template engine, control-flow layer, and ORM                                                 | package
+i | rubygem-rake                      | Ruby based make-like utility                                                                                                | package
+i | rubygem-rdoc                      | RDoc produces HTML and command-line documentation for Ruby projects                                                         | package
+i | rubygem-redcarpet                 | Markdown that smells nice                                                                                                   | package
+i | rubygem-rpam                      | PAM integration with ruby                                                                                                   | package
+i | rubygem-rspec                     | rspec-2.6.0                                                                                                                 | package
+i | rubygem-rspec-core                | rspec-core-2.6.0                                                                                                            | package
+i | rubygem-rspec-expectations        | rspec-expectations-2.6.0                                                                                                    | package
+i | rubygem-rspec-mocks               | rspec-mocks-2.6.0                                                                                                           | package
+i | rubygem-ruby-dbus                 | Ruby module for interaction with D-Bus                                                                                      | package
+i | rubygem-ruby-fcgi                 | FastCGI library for Ruby                                                                                                    | package
+i | rubygem-ruby-prof                 | Fast Ruby profiler                                                                                                          | package
+i | rubygem-sqlite3                   | A Ruby interface for the SQLite3 database engine                                                                            | package
+i | rubygem-static_record_cache       | Permanently caches subclasses of ActiveRecord in memory                                                                     | package
+i | rubygem-term-ansicolor            | Ruby library that colors strings using ANSI escape sequences                                                                | package
+i | rubygem-webyast-rake-tasks        | Rake tasks shared by all YaST webservice packages                                                                           | package
+i | rubygem-xml-simple                | A simple API for XML processing                                                                                             | package
+i | rubygem-yard                      | Documentation tool for consistent and usable documentation in Ruby                                                          | package
+i | rubygems                          | The Ruby standard for publishing and managing third party libraries                                                         | package
+i | sed                               | A Stream-Oriented Non-Interactive Text Editor                                                                               | package
+i | shared-mime-info                  | Shared MIME Database                                                                                                        | package
+i | sqlite3                           | Embeddable SQL Database Engine                                                                                              | package
+i | strace                            | A utility to trace the system calls of a program                                                                            | package
+i | suseRegister                      | Registration Tool                                                                                                           | package
+i | sysconfig                         | The sysconfig scheme and traditional network scripts                                                                        | package
+i | sysfsutils                        | System Utilities Package / Libsysfs                                                                                         | package
+i | syslog-ng                         | The new-generation syslog-daemon                                                                                            | package
+i | syslog-service                    | Syslog service files & scripts                                                                                              | package
+i | systemd                           | A System and Session Manager                                                                                                | package
+i | systemd-presets-branding-openSUSE | systemd default presets for openSUSE                                                                                        | package
+i | systemd-sysvinit                  | System V init tools                                                                                                         | package
+i | sysvinit                          | SysV-Style init                                                                                                             | package
+i | sysvinit-tools                    | Tools for basic booting                                                                                                     | package
+i | tar                               | GNU implementation of tar ((t)ape (ar)chiver)                                                                               | package
+i | tcl                               | The Tcl Programming Language                                                                                                | package
+i | tcpd                              | A security wrapper for TCP daemons                                                                                          | package
+i | terminfo-base                     | A terminal descriptions database                                                                                            | package
+i | timezone                          | Timezone Descriptions                                                                                                       | package
+i | tk                                | Graphical User Interface Toolkit for Tcl                                                                                    | package
+i | tunctl                            | Create and remove virtual network interfaces                                                                                | package
+i | udev                              | A rule-based device node and kernel event manager                                                                           | package
+i | unzip                             | A program to unpack compressed files                                                                                        | package
+i | update-alternatives               | Maintain symbolic links determining default commands                                                                        | package
+i | util-linux                        | A collection of basic system utilities                                                                                      | package
+i | vim                               | Vi IMproved                                                                                                                 | package
+i | vim-base                          | Vi IMproved                                                                                                                 | package
+i | vlan                              | 802.1q VLAN Implementation for Linux                                                                                        | package
+i | vmware-guest-kmp-default          | Open Virtual Machine Tools                                                                                                  | package
+i | wallpaper-branding-openSUSE       | openSUSE default wallpapers                                                                                                 | package
+i | webyast-base-ws                   | WebYaST - base components for rest service                                                                                  | package
+i | xorg-x11-libICE                   | X.Org ICE library                                                                                                           | package
+i | xorg-x11-libSM                    | X.Org SM library                                                                                                            | package
+i | xorg-x11-libX11                   | X.Org X11 library                                                                                                           | package
+i | xorg-x11-libXau                   | X.Org Xau library                                                                                                           | package
+i | xorg-x11-libXext                  | X.Org Xext library                                                                                                          | package
+i | xorg-x11-libXfixes                | X.Org Xfixes library                                                                                                        | package
+i | xorg-x11-libXmu                   | X.Org Xmu library                                                                                                           | package
+i | xorg-x11-libXp                    | X.Org Xp library                                                                                                            | package
+i | xorg-x11-libXpm                   | X.Org Xpm library                                                                                                           | package
+i | xorg-x11-libXprintUtil            | X.Org XprintUtil library                                                                                                    | package
+i | xorg-x11-libXrender               | X.Org Xrender library                                                                                                       | package
+i | xorg-x11-libXt                    | X.Org Xt library                                                                                                            | package
+i | xorg-x11-libfontenc               | X.Org fontenc library                                                                                                       | package
+i | xorg-x11-libs                     | Remaining X.Org libraries                                                                                                   | package
+i | xorg-x11-libxcb                   | X.Org xcb library                                                                                                           | package
+i | xorg-x11-libxkbfile               | X.Org xkbfile library                                                                                                       | package
+i | xz                                | A Program for Compressing Files                                                                                             | package
+i | yast2                             | YaST2 - Main Package                                                                                                        | package
+i | yast2-branding-openSUSE           | YaST2 - openSuSE Branding                                                                                                   | package
+i | yast2-core                        | YaST2 - Core Libraries                                                                                                      | package
+i | yast2-country-data                | YaST2 - Data files for Country settings                                                                                     | package
+i | yast2-dbus-server                 | YaST2 - DBus Server                                                                                                         | package
+i | yast2-hardware-detection          | YaST2 - Hardware Detection Interface                                                                                        | package
+i | yast2-libyui                      | YaST2 - User Interface Engine                                                                                               | package
+i | yast2-ncurses                     | YaST2 - Character Based User Interface                                                                                      | package
+i | yast2-ncurses-pkg                 | YaST2 - Character Based Package Manager Frontend                                                                            | package
+i | yast2-online-update               | YaST2 - Online Update (YOU)                                                                                                 | package
+i | yast2-packager                    | YaST2 - Package Library                                                                                                     | package
+i | yast2-perl-bindings               | YaST2 - Perl Bindings                                                                                                       | package
+i | yast2-pkg-bindings                | YaST2 - Package Manager Access                                                                                              | package
+i | yast2-qt                          | YaST2 - Graphical User Interface                                                                                            | package
+i | yast2-qt-branding-openSUSE        | openSUSE default wallpapers                                                                                                 | package
+i | yast2-runlevel                    | YaST2 - Runlevel Editor                                                                                                     | package
+i | yast2-theme-openSUSE              | YaST2 - Theme (openSUSE)                                                                                                    | package
+i | yast2-transfer                    | YaST2 - Agent for Various Transfer Protocols                                                                                | package
+i | yast2-xml                         | YaST2 - XML Agent                                                                                                           | package
+i | yast2-ycp-ui-bindings             | YaST2 - YCP Bindings for the YaST2 User Interface Engine                                                                    | package
+i | zlib                              | Data Compression Library                                                                                                    | package
+i | zypper                            | Command line software manager using libzypp                                                                                 | package
