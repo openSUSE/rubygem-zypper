@@ -1,7 +1,10 @@
+0.3.0
+-----
 * Extended testsuites
 * Project moved to openSUSE/rubygem-zypper at GitHub
 * Using Nori (with Nokogiri) to parse the XML output
 * Speedup improvements
+* New Package::updates method
 
 0.2.2
 -----

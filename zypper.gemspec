@@ -1,15 +1,17 @@
 require File.expand_path(File.dirname(__FILE__) + "/lib/zypper/version")
 
 gem_description = "Library for accessing zypper functions such as searching and
-installing packages, adding and removing repositories and services. Supports
-calling zypper in changed root (both with local zypper and zypper in chroot)."
+installing packages, adding and removing repositories and services, filtering
+and applying patches.
+Supports calling zypper in changed root (both with local zypper and zypper in
+chroot)."
 
 root_dir = File.expand_path(File.dirname(__FILE__))
 
 Gem::Specification.new do |s|
   s.name        = "zypper"
   s.version     = Zypper::VERSION
-  s.date        = "2012-07-25"
+  s.date        = "2012-07-30"
   s.summary     = "Library for accessing zypper"
   s.description = gem_description
   s.author      = "Lukas Ocilka"
