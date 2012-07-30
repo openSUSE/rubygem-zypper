@@ -329,6 +329,26 @@ zypper.package.installed?(:package => 'package')
 true or false
 ```
 
+#### Package Updates ####
+
+Returns list of packages that could be updated (with higher version available).
+
+```ruby
+zypper.packages.updates
+
+# returns e.g.
+[
+  ...
+  {:source=>{:url=>"http://download.opensuse.org/update/12.1/", :alias=>"openSUSE_12.1_Updates"},
+   :summary=>"Utilities to query and test DNS  ", :license=>nil, :description=>"This package
+   includes the utilities host, dig, and nslookup used to\ntest and query the Domain Name System
+   (DNS).  The Berkeley Internet\nName Domain (BIND) DNS server is found in the package named bind.",
+   :edition=>"9.8.3P1-4.14.1", :name=>"bind-utils", :kind=>"package", :arch=>"x86_64"
+  },
+  ...
+]
+```
+
 ### Patches ###
 
 You can access the patches class either with
