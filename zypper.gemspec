@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
 
   s.add_dependency "popen4"
-  s.add_dependency "nori"
+  s.add_dependency "nori","~>1.0"
   s.add_dependency "nokogiri"
 
   s.add_development_dependency "mocha"
